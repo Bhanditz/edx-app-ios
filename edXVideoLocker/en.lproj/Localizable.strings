@@ -23,7 +23,7 @@
 /* Error message shown when there is a problem loading a video */
 "CHECK_CONNECTION"="Problem loading video.\nPlease check your Internet connection.";
 /* Prompt text shown after user chooses to begin registering with an external service like Facebook or Google. {service} will be replaced with a service name like Google or Facebook. */
-"COMPLETE_REGISTRATION_INFO" = "You've successfully signed in with {service}. We just need a little more information before you start learning with edX.";
+"COMPLETE_REGISTRATION_INFO" = "You've successfully signed in with {service}. We just need a little more information before you start learning with Appsembler Academy.";
 /* Prompt text shown after user chooses to begin registering with an external service like Facebook or Google */
 "COMPLETE_REGISTRATION_PROMPT" = "Complete your registration";
 /* Title of alert when confirming deletion of a video */
@@ -61,13 +61,13 @@
 /* Prompt indicating user needs to enter a password */
 "ENTER_PASSWORD"="Please enter your password and try again.";
 /* Message when user attempts to register an account using an external service like Facebook or Google, but they already have an account linked to that service */
-"EXTERNAL_REGISTRATION_BECAME_LOGIN" = "You already set up an edX account with your {service} account. You have been logged in with that account.";
+"EXTERNAL_REGISTRATION_BECAME_LOGIN" = "You already set up an Appsembler Academy account with your {service} account. You have been logged in with that account.";
 /* Facebook login method */
 "FACEBOOK"="Facebook";
 /* Overlay message shown when facebook login fails because the user's account isn't linked */
-"FACEBOOK_ACCOUNT_NOT_ASSOCIATED_MESSAGE"="Make sure your Facebook account is associated with your edX account on edx.org";
+"FACEBOOK_ACCOUNT_NOT_ASSOCIATED_MESSAGE"="Make sure your Facebook account is associated with your Appsembler Academy account on appsembler.com.";
 /* Title for overlay message shown when facebook login fails */
-"FACEBOOK_ACCOUNT_NOT_ASSOCIATED_TITLE"="Facebook account not associated with edX account";
+"FACEBOOK_ACCOUNT_NOT_ASSOCIATED_TITLE"="Facebook account not associated with Appsembler Academy account";
 /* Title of find courses screen */
 "FIND_COURSES"="Find Courses";
 /* Overlay message shown when enrolling in a course fails because the user is already in the course */
@@ -87,9 +87,9 @@
 /* Google login method */
 "GOOGLE"="Google";
 /* Overlay message shown when facebook login fails because the user's account isn't linked */
-"GOOGLE_ACCOUNT_NOT_ASSOCIATED_MESSAGE"="Make sure your Google account is associated with your edX account on edx.org";
+"GOOGLE_ACCOUNT_NOT_ASSOCIATED_MESSAGE"="Make sure your Google account is associated with your Appsembler Academy account on appsembler.com";
 /* Title of overlay message shown when facebook login fails because the user's account isn't linked */
-"GOOGLE_ACCOUNT_NOT_ASSOCIATED_TITLE"="Google account not associated with edX account";
+"GOOGLE_ACCOUNT_NOT_ASSOCIATED_TITLE"="Google account not associated with Appsembler Academy account";
 /* Message shown when there are no announcements for a course */
 "HANDOUTS_UNAVAILABLE"="There are currently no handouts for this course.";
 /* Overlay error shown when logging in with an invalid email address */
@@ -101,7 +101,7 @@
 /* Alert dialog title when asking whether it's okay to download large videos */
 "LARGE_DOWNLOAD_TITLE"="Large Download";
 /* Button title to begin login */
-"LOGIN_SIGN_IN_TO_EDX"="Sign in to edX";
+"LOGIN_SIGN_IN_TO_EDX"="Sign in to AppsemblerX";
 /* Prompt leading user to create account screen */
 "LOGIN_SPLASH_SIGN_UP"="Sign up and start learning";
 /* Prompt leading user to sign in screen */
@@ -149,9 +149,9 @@
 /* Create account agreement. Followed by agreement name like "End User License Agreement */
 "REDIRECT_TEXT" = "By signing in to this app, you agree to the";
 /* Title of registration agreement */
-"REGISTRATION_AGREEMENT_BUTTON_TITLE"="edX Terms of Service and Honor Code";
+"REGISTRATION_AGREEMENT_BUTTON_TITLE"="Appsembler Academy Terms of Service and Honor Code";
 /* Create account agreement. Followed by list of agreement names like "End User License Agreement" */
-"REGISTRATION_AGREEMENT_MESSAGE"="By creating an edX account, you agree to the ";
+"REGISTRATION_AGREEMENT_MESSAGE"="By creating an Appsembler Academy account, you agree to the ";
 /* Button text allowing user create an account */
 "REGISTRATION_CREATE_MY_ACCOUNT"="Create my account";
 /* Text shown while waiting for registration request */
@@ -173,7 +173,7 @@
 /* Heading on registration screen allowing users to sign up using external services like Facebook and Google. Will be preceded by text "Sign up with" */
 "REGISTRATION_SIGN_UP_ALTERNATE_PROMPT"="or sign up with email";
 /* Registration screen title */
-"REGISTRATION_SIGN_UP_FOR_EDX"="Sign up for edX";
+"REGISTRATION_SIGN_UP_FOR_EDX"="Sign up for AppsemblerX";
 /* Alert dialog title prompting user to enter an email address to reset their password */
 "RESET_PASSWORD_TITLE"="Reset Password";
 /* Alert dialog content prompting user to enter an email address to reset their password */
