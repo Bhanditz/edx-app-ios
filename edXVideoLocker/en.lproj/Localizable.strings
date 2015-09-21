@@ -149,7 +149,7 @@
 /* Create account agreement. Followed by agreement name like "End User License Agreement */
 "REDIRECT_TEXT" = "By signing in to this app, you agree to the";
 /* Title of registration agreement */
-"REGISTRATION_AGREEMENT_BUTTON_TITLE"="Appsembler Academy Terms of Service and Honor Code";
+"REGISTRATION_AGREEMENT_BUTTON_TITLE"="Appsembler Academy Terms of Use";
 /* Create account agreement. Followed by list of agreement names like "End User License Agreement" */
 "REGISTRATION_AGREEMENT_MESSAGE"="By creating an Appsembler Academy account, you agree to the ";
 /* Button text allowing user create an account */
