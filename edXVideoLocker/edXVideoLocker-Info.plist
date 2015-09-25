@@ -21,11 +21,11 @@
 		</dict>
 	</dict>
 	<key>CFBundleIdentifier</key>
-	<string>org.edx.mobile</string>
+	<string>com.appsembler.academy.mobile</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>edX</string>
+	<string>AppsemblerX</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -48,7 +48,7 @@
 	<key>CFBundleVersion</key>
 	<string>1.0.43</string>
 	<key>FacebookDisplayName</key>
-	<string>Edx</string>
+	<string>AppsemblerX</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UIAppFonts</key>

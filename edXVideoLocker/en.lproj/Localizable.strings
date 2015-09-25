@@ -65,7 +65,7 @@
 /* Facebook login method */
 "FACEBOOK"="Facebook";
 /* Overlay message shown when facebook login fails because the user's account isn't linked */
-"FACEBOOK_ACCOUNT_NOT_ASSOCIATED_MESSAGE"="Make sure your Facebook account is associated with your Appsembler Academy account on appsembler.com.";
+"FACEBOOK_ACCOUNT_NOT_ASSOCIATED_MESSAGE"="Make sure your Facebook account is associated with your Appsembler Academy account on academy.appsembler.com.";
 /* Title for overlay message shown when facebook login fails */
 "FACEBOOK_ACCOUNT_NOT_ASSOCIATED_TITLE"="Facebook account not associated with Appsembler Academy account";
 /* Title of find courses screen */
@@ -86,9 +86,9 @@
 "FLOATING_ERROR_TITLE"="Reset Password Error";
 /* Google login method */
 "GOOGLE"="Google";
-/* Overlay message shown when facebook login fails because the user's account isn't linked */
-"GOOGLE_ACCOUNT_NOT_ASSOCIATED_MESSAGE"="Make sure your Google account is associated with your Appsembler Academy account on appsembler.com";
-/* Title of overlay message shown when facebook login fails because the user's account isn't linked */
+/* Overlay message shown when google login fails because the user's account isn't linked */
+"GOOGLE_ACCOUNT_NOT_ASSOCIATED_MESSAGE"="Make sure your Google account is associated with your Appsembler Academy account on academy.appsembler.com";
+/* Title of overlay message shown when google login fails because the user's account isn't linked */
 "GOOGLE_ACCOUNT_NOT_ASSOCIATED_TITLE"="Google account not associated with Appsembler Academy account";
 /* Message shown when there are no announcements for a course */
 "HANDOUTS_UNAVAILABLE"="There are currently no handouts for this course.";
