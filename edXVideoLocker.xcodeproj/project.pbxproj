@@ -78,7 +78,6 @@
 		197225AF19A60957005D76F4 /* CLPortraitOptionsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 197225AD19A60957005D76F4 /* CLPortraitOptionsView.xib */; };
 		1972E3A619BDBA9200085F08 /* ic_seek_thumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1972E3A419BDBA9200085F08 /* ic_seek_thumb@2x.png */; };
 		1972E3A719BDBA9200085F08 /* ic_seek_thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 1972E3A519BDBA9200085F08 /* ic_seek_thumb.png */; };
-		198826E21952DBE8005D4D8A /* splash(640x960).png in Resources */ = {isa = PBXBuildFile; fileRef = 198826DE1952DBE8005D4D8A /* splash(640x960).png */; };
 		198826E31952DBE8005D4D8A /* splash9640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 198826DF1952DBE8005D4D8A /* splash9640x1136.png */; };
 		198826E81952FE39005D4D8A /* OEXOpenInBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 198826E61952FE39005D4D8A /* OEXOpenInBrowserViewController.m */; };
 		198826E91952FE39005D4D8A /* OEXOpenInBrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 198826E71952FE39005D4D8A /* OEXOpenInBrowserViewController.xib */; };
@@ -122,6 +121,9 @@
 		19EA0F5D1965CB3700B684B0 /* OEXCustomEditingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EA0F5C1965CB3700B684B0 /* OEXCustomEditingView.m */; };
 		490F00841BA8B3FF0023FC1B /* bg_map.png in Resources */ = {isa = PBXBuildFile; fileRef = 490F00831BA8B3FF0023FC1B /* bg_map.png */; };
 		490F00861BA8B6020023FC1B /* splash-start-lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 490F00851BA8B6020023FC1B /* splash-start-lg.png */; };
+		496B421B1BB9D7CF00C2F049 /* app_icon60.png in Resources */ = {isa = PBXBuildFile; fileRef = 496B42181BB9D7CF00C2F049 /* app_icon60.png */; };
+		496B421C1BB9D7CF00C2F049 /* app_icon80.png in Resources */ = {isa = PBXBuildFile; fileRef = 496B42191BB9D7CF00C2F049 /* app_icon80.png */; };
+		496B421D1BB9D7CF00C2F049 /* splash(640x960).png in Resources */ = {isa = PBXBuildFile; fileRef = 496B421A1BB9D7CF00C2F049 /* splash(640x960).png */; };
 		687EE3465F0A11801921F434 /* libPods-edXVideoLocker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FCB227BDE6FE8D5FFBE20CD /* libPods-edXVideoLocker.a */; };
 		77000A371A76EF8C007D306C /* NSString+OEXValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 77000A361A76EF8C007D306C /* NSString+OEXValidation.m */; };
 		77000A391A76EFF2007D306C /* NSString+OEXValidationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77000A381A76EFF2007D306C /* NSString+OEXValidationTests.m */; };
@@ -146,7 +148,6 @@
 		7713DFCB1AC45542005A1756 /* icon_google_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7713DFC91AC45542005A1756 /* icon_google_white@2x.png */; };
 		7714A2601AB37CF7004C2254 /* OEXRegistrationFieldError.m in Sources */ = {isa = PBXBuildFile; fileRef = 7714A25F1AB37CF7004C2254 /* OEXRegistrationFieldError.m */; };
 		7726BD1D1A36572F003B3354 /* NSMutableDictionary+OEXSafeAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 7726BD1C1A36572F003B3354 /* NSMutableDictionary+OEXSafeAccess.m */; };
-		7726BD331A38E684003B3354 /* app_icon80.png in Resources */ = {isa = PBXBuildFile; fileRef = 7726BD311A38E684003B3354 /* app_icon80.png */; };
 		7726BD341A38E684003B3354 /* app_icon180.png in Resources */ = {isa = PBXBuildFile; fileRef = 7726BD321A38E684003B3354 /* app_icon180.png */; };
 		7726BD361A38EC08003B3354 /* GooglePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F562F841A1F2CB300320DB3 /* GooglePlus.framework */; };
 		7726BD371A38EC0B003B3354 /* GoogleOpenSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F562F891A1F44D700320DB3 /* GoogleOpenSource.framework */; };
@@ -443,7 +444,6 @@
 		197225AD19A60957005D76F4 /* CLPortraitOptionsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CLPortraitOptionsView.xib; path = CutomePlayer/CLPortraitOptionsView.xib; sourceTree = "<group>"; };
 		1972E3A419BDBA9200085F08 /* ic_seek_thumb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_seek_thumb@2x.png"; sourceTree = "<group>"; };
 		1972E3A519BDBA9200085F08 /* ic_seek_thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_seek_thumb.png; sourceTree = "<group>"; };
-		198826DE1952DBE8005D4D8A /* splash(640x960).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash(640x960).png"; sourceTree = "<group>"; };
 		198826DF1952DBE8005D4D8A /* splash9640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash9640x1136.png; sourceTree = "<group>"; };
 		198826E51952FE39005D4D8A /* OEXOpenInBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OEXOpenInBrowserViewController.h; sourceTree = "<group>"; };
 		198826E61952FE39005D4D8A /* OEXOpenInBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OEXOpenInBrowserViewController.m; sourceTree = "<group>"; };
@@ -508,6 +508,9 @@
 		490F00831BA8B3FF0023FC1B /* bg_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_map.png; sourceTree = "<group>"; };
 		490F00851BA8B6020023FC1B /* splash-start-lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash-start-lg.png"; sourceTree = "<group>"; };
 		493032B3EEEE38B7AA6DCBB3 /* Pods-edXVideoLockerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-edXVideoLockerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-edXVideoLockerTests/Pods-edXVideoLockerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		496B42181BB9D7CF00C2F049 /* app_icon60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon60.png; sourceTree = "<group>"; };
+		496B42191BB9D7CF00C2F049 /* app_icon80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon80.png; sourceTree = "<group>"; };
+		496B421A1BB9D7CF00C2F049 /* splash(640x960).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash(640x960).png"; sourceTree = "<group>"; };
 		5021CAE6BF26207F7A71F29E /* Pods-edXVideoLocker.coverage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-edXVideoLocker.coverage.xcconfig"; path = "Pods/Target Support Files/Pods-edXVideoLocker/Pods-edXVideoLocker.coverage.xcconfig"; sourceTree = "<group>"; };
 		5420541FA2344E4CF262BF1C /* Pods-edXVideoLocker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-edXVideoLocker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-edXVideoLocker/Pods-edXVideoLocker.debug.xcconfig"; sourceTree = "<group>"; };
 		55A7D420D468976C5A09B3E7 /* Pods-edXVideoLocker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-edXVideoLocker.release.xcconfig"; path = "Pods/Target Support Files/Pods-edXVideoLocker/Pods-edXVideoLocker.release.xcconfig"; sourceTree = "<group>"; };
@@ -546,7 +549,6 @@
 		7714A25F1AB37CF7004C2254 /* OEXRegistrationFieldError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OEXRegistrationFieldError.m; sourceTree = "<group>"; };
 		7726BD1B1A36572F003B3354 /* NSMutableDictionary+OEXSafeAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+OEXSafeAccess.h"; sourceTree = "<group>"; };
 		7726BD1C1A36572F003B3354 /* NSMutableDictionary+OEXSafeAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+OEXSafeAccess.m"; sourceTree = "<group>"; };
-		7726BD311A38E684003B3354 /* app_icon80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon80.png; sourceTree = "<group>"; };
 		7726BD321A38E684003B3354 /* app_icon180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon180.png; sourceTree = "<group>"; };
 		773BE0001AAA07DD0074C3CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		775420081AA763CE006FAF5B /* NSString+OEXFormatting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+OEXFormatting.h"; sourceTree = "<group>"; };
@@ -1124,11 +1126,12 @@
 		198826DB1952DBCA005D4D8A /* App Icons & Splash */ = {
 			isa = PBXGroup;
 			children = (
+				496B42181BB9D7CF00C2F049 /* app_icon60.png */,
+				496B42191BB9D7CF00C2F049 /* app_icon80.png */,
+				496B421A1BB9D7CF00C2F049 /* splash(640x960).png */,
 				BE17B2CE197518DC00297B0B /* app_icon120.png */,
 				BE17B2CF197518DC00297B0B /* app_icon1024.png */,
-				7726BD311A38E684003B3354 /* app_icon80.png */,
 				7726BD321A38E684003B3354 /* app_icon180.png */,
-				198826DE1952DBE8005D4D8A /* splash(640x960).png */,
 				198826DF1952DBE8005D4D8A /* splash9640x1136.png */,
 			);
 			name = "App Icons & Splash";
@@ -1982,6 +1985,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEEEBF88196AB7EA00EF2C35 /* OEXStatusMessageViewController.xib in Resources */,
+				496B421B1BB9D7CF00C2F049 /* app_icon60.png in Resources */,
 				193F8BD519A4CE6500AAA525 /* ic_settings.png in Resources */,
 				193B5021194093FF0038E11C /* bt_signin_default.png in Resources */,
 				193F8BCA19A4CE6500AAA525 /* ic_next.png in Resources */,
@@ -1996,7 +2000,6 @@
 				193B501D194093FF0038E11C /* bt_grey_deactive.png in Resources */,
 				193B501F194093FF0038E11C /* bt_signin_active.png in Resources */,
 				1972E3A719BDBA9200085F08 /* ic_seek_thumb.png in Resources */,
-				198826E21952DBE8005D4D8A /* splash(640x960).png in Resources */,
 				199627931945B9C00022C489 /* bg_card_image.png in Resources */,
 				193B5020194093FF0038E11C /* bt_signin_deactive.png in Resources */,
 				193F8BCC19A4CE6500AAA525 /* ic_pause.png in Resources */,
@@ -2032,6 +2035,7 @@
 				77DC29601ABCA0F200FAD22C /* OEXLoginSplashViewController.xib in Resources */,
 				19E1F02D1A28585C00C2E1BE /* ic_blue2_pressed.png in Resources */,
 				B47780531AADA27B00436DB4 /* ic_partiallywatched@3x.png in Resources */,
+				496B421D1BB9D7CF00C2F049 /* splash(640x960).png in Resources */,
 				190AF7951A4061950029E23E /* Main.storyboard in Resources */,
 				193B5023194095160038E11C /* separator.png in Resources */,
 				B47780591AADA95400436DB4 /* Terms-and-Services.htm in Resources */,
@@ -2041,13 +2045,13 @@
 				9CD7D2F11A9499D200E7126E /* OEXCourseInfoTabViewController.xib in Resources */,
 				193F8BD319A4CE6500AAA525 /* ic_previous_press.png in Resources */,
 				198826E91952FE39005D4D8A /* OEXOpenInBrowserViewController.xib in Resources */,
-				7726BD331A38E684003B3354 /* app_icon80.png in Resources */,
 				199627941945B9C00022C489 /* bg_card_text.png in Resources */,
 				B47780571AADA27B00436DB4 /* ic_watched@3x.png in Resources */,
 				BE8163F9195447ED00F9A2C5 /* Splash_map.png in Resources */,
 				77B4638A1A30F60C0083453A /* handouts-announcements.css in Resources */,
 				B498407719753C7B00019D1F /* movieForward.png in Resources */,
 				B484423A1A9623C600C9B209 /* ic_checkbox_default@3x.png in Resources */,
+				496B421C1BB9D7CF00C2F049 /* app_icon80.png in Resources */,
 				1927486919B7458C00196B8F /* ic_lms_blue.png in Resources */,
 				1918AFBE1949B54C00F40345 /* ic_back.png in Resources */,
 				490F00841BA8B3FF0023FC1B /* bg_map.png in Resources */,
