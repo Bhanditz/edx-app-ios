@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BECB7B0A1924C0C3009C77F1"
-               BuildableName = "edX.app"
+               BuildableName = "AppsemblerX.app"
                BlueprintName = "edXVideoLocker"
                ReferencedContainer = "container:edXVideoLocker.xcodeproj">
             </BuildableReference>
@@ -281,7 +281,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BECB7B0A1924C0C3009C77F1"
-            BuildableName = "edX.app"
+            BuildableName = "AppsemblerX.app"
             BlueprintName = "edXVideoLocker"
             ReferencedContainer = "container:edXVideoLocker.xcodeproj">
          </BuildableReference>
@@ -301,7 +301,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BECB7B0A1924C0C3009C77F1"
-            BuildableName = "edX.app"
+            BuildableName = "AppsemblerX.app"
             BlueprintName = "edXVideoLocker"
             ReferencedContainer = "container:edXVideoLocker.xcodeproj">
          </BuildableReference>
@@ -320,7 +320,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BECB7B0A1924C0C3009C77F1"
-            BuildableName = "edX.app"
+            BuildableName = "AppsemblerX.app"
             BlueprintName = "edXVideoLocker"
             ReferencedContainer = "container:edXVideoLocker.xcodeproj">
          </BuildableReference>
