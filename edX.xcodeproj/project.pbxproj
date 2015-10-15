@@ -127,6 +127,8 @@
 		46CECC3C1B041D270073C63A /* CourseDashboardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CECC3B1B041D270073C63A /* CourseDashboardCell.swift */; };
 		46CECC401B041FCA0073C63A /* DiscussionTopicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CECC3F1B041FCA0073C63A /* DiscussionTopicsViewController.swift */; };
 		46CECC441B055B0F0073C63A /* CourseDashboardViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CECC431B055B0F0073C63A /* CourseDashboardViewControllerTests.swift */; };
+		49CB8DE61BCED2C9002E1FFD /* CourseDiscoveryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CB8DE51BCED2C9002E1FFD /* CourseDiscoveryAPI.swift */; settings = {ASSET_TAGS = (); }; };
+		49CB8E0B1BD000C0002E1FFD /* CoursesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CB8E0A1BD000C0002E1FFD /* CoursesTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		5D43B1861B0C1F9200448B52 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D43B1801B0C1F9200448B52 /* PostTableViewCell.swift */; };
 		5D43B1871B0C1F9200448B52 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D43B1811B0C1F9200448B52 /* PostsViewController.swift */; };
 		5D43B18A1B0C1F9200448B52 /* MenuOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D43B1841B0C1F9200448B52 /* MenuOptionsViewController.swift */; };
@@ -701,6 +703,8 @@
 		46CECC3D1B041FAF0073C63A /* DiscussionTopicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscussionTopicCell.swift; sourceTree = "<group>"; };
 		46CECC3F1B041FCA0073C63A /* DiscussionTopicsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscussionTopicsViewController.swift; sourceTree = "<group>"; };
 		46CECC431B055B0F0073C63A /* CourseDashboardViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseDashboardViewControllerTests.swift; sourceTree = "<group>"; };
+		49CB8DE51BCED2C9002E1FFD /* CourseDiscoveryAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseDiscoveryAPI.swift; sourceTree = "<group>"; };
+		49CB8E0A1BD000C0002E1FFD /* CoursesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoursesTableViewController.swift; sourceTree = "<group>"; };
 		5D43B1801B0C1F9200448B52 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		5D43B1811B0C1F9200448B52 /* PostsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
 		5D43B1841B0C1F9200448B52 /* MenuOptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuOptionsViewController.swift; sourceTree = "<group>"; };
@@ -2351,6 +2355,7 @@
 				9EF21A9D1B4697CA000048F8 /* CourseLastAccessedController.swift */,
 				9E4E6C3E1B4BBB5C0034F7EB /* LastAccessedProvider.swift */,
 				1A5AC57E1B94ECDA00885187 /* Course Card */,
+				49CB8E0A1BD000C0002E1FFD /* CoursesTableViewController.swift */,
 			);
 			name = Course;
 			sourceTree = "<group>";
@@ -2608,6 +2613,7 @@
 				802555561AF9444500EDEE98 /* NetworkManager.swift */,
 				9ED168AD1B29A4ED00AA7B5B /* UserAPI.swift */,
 				9EDCC51D1B395BDE00A4F39D /* CourseInfoAPI.swift */,
+				49CB8DE51BCED2C9002E1FFD /* CourseDiscoveryAPI.swift */,
 			);
 			name = Network;
 			sourceTree = "<group>";
@@ -3196,6 +3202,7 @@
 				B4D31D351AB1904200C8D45C /* NSJSONSerialization+OEXSafeAccess.m in Sources */,
 				773181371B697644000CC050 /* DiscussionDataManager.swift in Sources */,
 				7772BEAB1AFA68330081CA7A /* SnapKit.swift in Sources */,
+				49CB8E0B1BD000C0002E1FFD /* CoursesTableViewController.swift in Sources */,
 				77ADF4AC1AC1F31200AC8955 /* OEXExternalAuthOptionsView.m in Sources */,
 				B498405A19753C6C00019D1F /* CLVideoPlayerControls.m in Sources */,
 				B4B6D6311A949F71000F44E8 /* OEXRegistrationFieldControllerFactory.m in Sources */,
@@ -3241,6 +3248,7 @@
 				77ADF4A31AC1AF9800AC8955 /* OEXFacebookAuthProvider.m in Sources */,
 				775434831AD7394D00635A40 /* OEXPushNotificationManager.m in Sources */,
 				778CC8241BBECD9100DCCAE4 /* JSON+RawValueExtractable.swift in Sources */,
+				49CB8DE61BCED2C9002E1FFD /* CourseDiscoveryAPI.swift in Sources */,
 				8F41F4791A834A8F0041B30D /* OEXImageCache.m in Sources */,
 				77E00B711B82A06F00573622 /* GrowingTextViewController.swift in Sources */,
 				771273301BA8FAD2008BA397 /* OEXAnalytics+Swift.swift in Sources */,

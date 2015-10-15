@@ -22,7 +22,7 @@ public struct UserAPI {
         var jsonBody : JSON {
             return JSON(query)
         }
-}
+    }
 
     static func lastAccessedDeserializer(response : NSHTTPURLResponse, json : JSON) -> Result<CourseLastAccessed> {
         return CourseLastAccessed(json: json).toResult()
