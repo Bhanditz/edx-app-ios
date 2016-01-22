@@ -1903,6 +1903,7 @@
 				743BE9D760052C3D1DC23116 /* Copy Pods Resources */,
 				77BDD65E1A44BD7300EA2A9C /* Process Config */,
 				77B4BAF31A52152A00B14C39 /* Upload Debugging Symbols */,
+				B38A23FCB9B2BE2FC1F3232D /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1922,6 +1923,7 @@
 				BECB7B291924C0C3009C77F1 /* Frameworks */,
 				BECB7B2A1924C0C3009C77F1 /* Resources */,
 				518B35FD5A76BEBAFBD369F1 /* Copy Pods Resources */,
+				B908D8720E84C37EC2DA0AC6 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -2170,6 +2172,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "${SRCROOT}/gradlew applyConfig --stacktrace --info";
+		};
+		B38A23FCB9B2BE2FC1F3232D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-edXVideoLocker/Pods-edXVideoLocker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B908D8720E84C37EC2DA0AC6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-edXVideoLockerTests/Pods-edXVideoLockerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		D65420B131C0029BCF6EE6E4 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2455,6 +2487,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LLVM_LTO = NO;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = edX;
 				RUN_CLANG_STATIC_ANALYZER = YES;
@@ -2477,6 +2510,7 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = "edXVideoLocker/edXVideoLocker-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LLVM_LTO = NO;
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = edX;
 				WRAPPER_EXTENSION = app;
@@ -2545,6 +2579,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LLVM_LTO = NO;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = edX;
 				RUN_CLANG_STATIC_ANALYZER = YES;
@@ -2583,6 +2618,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LLVM_LTO = NO;
 				PRODUCT_NAME = edX;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
@@ -2605,6 +2641,7 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = "edXVideoLocker/edXVideoLocker-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LLVM_LTO = NO;
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = edX;
 				WRAPPER_EXTENSION = app;
@@ -2627,6 +2664,7 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				INFOPLIST_FILE = "edXVideoLocker/edXVideoLocker-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LLVM_LTO = NO;
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = edX;
 				WRAPPER_EXTENSION = app;

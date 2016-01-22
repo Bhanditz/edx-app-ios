@@ -1,22 +1,19 @@
 PODS:
-  - Analytics/Core-iOS (1.8.15):
+  - Analytics/Core-iOS (2.0.17):
     - TRVSDictionaryWithCaseInsensitivity (= 0.0.2)
-  - Analytics/GoogleAnalytics (1.8.15):
+  - Analytics/GoogleAnalytics (2.0.17):
     - Analytics/Core-iOS
     - Analytics/Segmentio
-    - GoogleAnalytics-iOS-SDK (= 3.10)
-    - GoogleAnalytics-iOS-SDK/IDFA (= 3.10)
-  - Analytics/Segmentio (1.8.15):
+    - GoogleAnalytics (= 3.13.0)
+    - GoogleIDFASupport (= 3.12.0)
+  - Analytics/Segmentio (2.0.17):
     - Analytics/Core-iOS
-  - GoogleAnalytics-iOS-SDK (3.10):
-    - GoogleAnalytics-iOS-SDK/Core (= 3.10)
-  - GoogleAnalytics-iOS-SDK/Core (3.10)
-  - GoogleAnalytics-iOS-SDK/IDFA (3.10):
-    - GoogleAnalytics-iOS-SDK/Core
-  - Masonry (0.6.1)
-  - NewRelicAgent (4.174)
-  - OCMock (3.1.2)
-  - Smartling.i18n (1.0.6)
+  - GoogleAnalytics (3.13.0)
+  - GoogleIDFASupport (3.12.0)
+  - Masonry (0.6.4)
+  - NewRelicAgent (5.3.5)
+  - OCMock (3.2.2)
+  - Smartling.i18n (1.0.11)
   - TRVSDictionaryWithCaseInsensitivity (0.0.2)
 
 DEPENDENCIES:
@@ -28,12 +25,13 @@ DEPENDENCIES:
   - Smartling.i18n (~> 1.0)
 
 SPEC CHECKSUMS:
-  Analytics: 83d44e4f60e805457567a59187a5d2d7871ebfae
-  GoogleAnalytics-iOS-SDK: f422062075d9ccb1ea8d783fc5ba3829461e9502
-  Masonry: 2cb49fd14d203d2db5ca6bb017135b235dde9980
-  NewRelicAgent: 4876832189351377d14eca74cd87e67fc400e00e
-  OCMock: ecdd510b73ef397f2f97274785c1e87fd147c49f
-  Smartling.i18n: 032ce15a0b9e2720060c0974bb3b117b8f1306cb
-  TRVSDictionaryWithCaseInsensitivity: a61daa8469fa079e05b694f6aad5441785c837d1
+  Analytics: 51d6163cb568c8ede69f2b92ef4779d91e1524e2
+  GoogleAnalytics: fcf1f1cad57ae1a9a53520018f0f680ceeeb8b49
+  GoogleIDFASupport: 0dd25ffdd152fd8e3deefd72978b42ef818ef0fa
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  NewRelicAgent: 0e5d8312054fe779237efc12e05f10c314884c47
+  OCMock: 18c9b7e67d4c2770e95bb77a9cc1ae0c91fe3835
+  Smartling.i18n: 9d24e105ae674678e1ae4d1c78bcabf524f0636b
+  TRVSDictionaryWithCaseInsensitivity: 51d2ccf52c6d645d27b63467a98fa02c556e01b0
 
-COCOAPODS: 0.36.0
+COCOAPODS: 0.39.0
