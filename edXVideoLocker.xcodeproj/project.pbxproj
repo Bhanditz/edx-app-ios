@@ -201,6 +201,7 @@
 		8FE04B491A1E0174007F88B8 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE04B481A1E0174007F88B8 /* FacebookSDK.framework */; };
 		8FE04B4D1A1E2637007F88B8 /* OEXFBSocial.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE04B4C1A1E2637007F88B8 /* OEXFBSocial.m */; };
 		9169A12203D31C60086B3F8A /* libPods-edXVideoLockerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2961FB58C4FA843C2A7DB822 /* libPods-edXVideoLockerTests.a */; };
+		99674BEE1C52FB240015D627 /* edXVideoLocker-Info-debug.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99674BED1C52FB240015D627 /* edXVideoLocker-Info-debug.plist */; };
 		9C9B7F6B1A8CC68400A857B2 /* OEXRevealOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9B7F621A8CC68400A857B2 /* OEXRevealOptionsViewController.m */; };
 		9C9B7F6C1A8CC68400A857B2 /* OEXFindCoursesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9B7F641A8CC68400A857B2 /* OEXFindCoursesViewController.m */; };
 		9C9B7F6D1A8CC68400A857B2 /* OEXCourseInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9B7F661A8CC68400A857B2 /* OEXCourseInfoViewController.m */; };
@@ -632,6 +633,7 @@
 		8FE04B4B1A1E2637007F88B8 /* OEXFBSocial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OEXFBSocial.h; sourceTree = "<group>"; };
 		8FE04B4C1A1E2637007F88B8 /* OEXFBSocial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OEXFBSocial.m; sourceTree = "<group>"; };
 		931D00B8D6F5D0CD6E7C610E /* Pods-edXVideoLockerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-edXVideoLockerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-edXVideoLockerTests/Pods-edXVideoLockerTests.release.xcconfig"; sourceTree = "<group>"; };
+		99674BED1C52FB240015D627 /* edXVideoLocker-Info-debug.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "edXVideoLocker-Info-debug.plist"; sourceTree = "<group>"; };
 		9C9B7F611A8CC68400A857B2 /* OEXRevealOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OEXRevealOptionsViewController.h; sourceTree = "<group>"; };
 		9C9B7F621A8CC68400A857B2 /* OEXRevealOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OEXRevealOptionsViewController.m; sourceTree = "<group>"; };
 		9C9B7F631A8CC68400A857B2 /* OEXFindCoursesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OEXFindCoursesViewController.h; sourceTree = "<group>"; };
@@ -1760,6 +1762,7 @@
 				193B501119407B2C0038E11C /* Assets */,
 				77B463881A30F60C0083453A /* Stylesheets */,
 				BECB7B161924C0C3009C77F1 /* edXVideoLocker-Info.plist */,
+				99674BED1C52FB240015D627 /* edXVideoLocker-Info-debug.plist */,
 				BECB7B1A1924C0C3009C77F1 /* main.m */,
 				BECB7B1C1924C0C3009C77F1 /* edXVideoLocker-Prefix.pch */,
 				B4AE3F8F19F1A0030047173D /* EdLogger.h */,
@@ -2074,6 +2077,7 @@
 				1996279B1945B9C00022C489 /* ic_circle.png in Resources */,
 				B47780561AADA27B00436DB4 /* ic_watched@2x.png in Resources */,
 				BE17B2D1197518DC00297B0B /* app_icon1024.png in Resources */,
+				99674BEE1C52FB240015D627 /* edXVideoLocker-Info-debug.plist in Resources */,
 				193F8BCE19A4CE6500AAA525 /* ic_play.png in Resources */,
 				77FFA2C91AC32EA200B4D69B /* check@2x.png in Resources */,
 				77E849B51A82BCFA004E6AA3 /* Default-568h@2x.png in Resources */,
@@ -2642,7 +2646,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "edXVideoLocker/edXVideoLocker-Prefix.pch";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INFOPLIST_FILE = "edXVideoLocker/edXVideoLocker-Info.plist";
+				INFOPLIST_FILE = "edXVideoLocker/edXVideoLocker-Info-debug.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LLVM_LTO = NO;
 				OTHER_LDFLAGS = "$(inherited)";
