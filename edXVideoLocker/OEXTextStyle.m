@@ -25,13 +25,6 @@
 
 @implementation OEXTextStyle
 
-- (id)init {
-    if (self = [self initWithFont:_font size:_size]){
-        
-    }
-    return self;
-}
-
 - (id)initWithFont:(OEXTextFont)font size:(CGFloat)size {
     self = [super init];
     if(self != nil) {

@@ -19,8 +19,6 @@ extern NSString* const OEXExternalRegistrationWithExistingAccountNotification;
 
 - (id)initWithRegistrationDescription:(OEXRegistrationDescription*)description NS_DESIGNATED_INITIALIZER;
 - (id)initWithDefaultRegistrationDescription;
-- (id) initWithCoder:(NSCoder *)aDecoder NS_UNAVAILABLE;
-- (id) initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil NS_UNAVAILABLE;
 
 @end
 

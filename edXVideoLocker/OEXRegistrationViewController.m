@@ -76,19 +76,6 @@ NSString* const OEXExternalRegistrationWithExistingAccountNotification = @"OEXEx
     return self;
 }
 
-- (id) initWithCoder:(NSCoder *)aDecoder {
-    self = [self initWithRegistrationDescription:_registrationDescription];
-
-    return self;
-}
-//
-//
-- (id) initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    self = [self initWithRegistrationDescription:_registrationDescription];
-    
-    return self;
-}
-
 - (id)initWithDefaultRegistrationDescription {
     return [self initWithRegistrationDescription: [[self class] registrationFormDescription]];
 }
