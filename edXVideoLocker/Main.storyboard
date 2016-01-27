@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Ifv-R8-0OA">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Ifv-R8-0OA">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
         <!--Login-->
@@ -36,14 +36,14 @@
                                     </imageView>
                                     <button opaque="NO" tag="104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TiJ-eS-RmI" customClass="OEXCustomButton">
                                         <rect key="frame" x="40" y="285" width="240" height="40"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" red="0.14901960780000001" green="0.73725490199999999" blue="0.84313725490000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <accessibility key="accessibilityConfiguration" label="btnSignIn"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="RzR-Y2-rb9"/>
                                             <constraint firstAttribute="width" constant="240" id="Zq4-eg-4rk"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                        <state key="normal" title="SIGN IN" backgroundImage="bt_signin_active.png">
+                                        <state key="normal" title="SIGN IN">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -121,6 +121,7 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="12"/>
                                         <state key="normal" title="Trouble logging in?">
+                                            <color key="titleColor" red="0.0" green="0.6588235294117647" blue="0.79607843137254897" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
@@ -147,13 +148,6 @@
                                         <constraints>
                                             <constraint firstAttribute="width" constant="240" id="KHM-Yo-eyx"/>
                                             <constraint firstAttribute="height" constant="119" id="X3X-lg-Iu4"/>
-                                        </constraints>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="8HT-8o-bQd">
-                                        <rect key="frame" x="117" y="58" width="95" height="45"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="95" id="GX4-V1-lIx"/>
-                                            <constraint firstAttribute="height" constant="45" id="NFg-MY-BNp"/>
                                         </constraints>
                                     </imageView>
                                     <textField opaque="NO" clipsSubviews="YES" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6uy-2U-9Jy" customClass="OEXCustomTextField">
@@ -214,13 +208,20 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                         <inset key="contentEdgeInsets" minX="0.0" minY="9" maxX="0.0" maxY="0.0"/>
                                         <state key="normal" title="edX End User Licensing Agreement">
-                                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleColor" red="0.0" green="0.6588235294" blue="0.79607843140000001" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
                                             <action selector="openEULA:" destination="J60-2C-zQV" eventType="touchUpInside" id="Vmo-AV-mLt"/>
                                         </connections>
                                     </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="cloudera_cropped_logo" translatesAutoresizingMaskIntoConstraints="NO" id="8HT-8o-bQd">
+                                        <rect key="frame" x="117" y="62" width="95" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="95" id="GX4-V1-lIx"/>
+                                            <constraint firstAttribute="height" constant="45" id="NFg-MY-BNp"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="centerX" secondItem="FGV-ft-0j8" secondAttribute="centerX" constant="-0.5" id="2BK-Ui-Zob"/>
@@ -312,7 +313,7 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.14901960780000001" green="0.73725490199999999" blue="0.84313725490000002" alpha="0.050000000000000003" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="centerY" secondItem="R88-Ff-oeq" secondAttribute="centerY" id="7GH-sr-Tbi"/>
                             <constraint firstItem="R88-Ff-oeq" firstAttribute="top" secondItem="OYu-MT-WS5" secondAttribute="top" id="8P9-ed-ZcF"/>
@@ -398,7 +399,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="141"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2GA-rf-wmh" id="F3L-Q6-zd3">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="140"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="141"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="201" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="User" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ov6-L3-h2F" customClass="OEXCustomLabel">
@@ -420,10 +421,10 @@
                                         <color key="backgroundColor" red="0.23529411764705882" green="0.25098039215686274" blue="0.27058823529411763" alpha="1" colorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="gray" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CellMyCourse" rowHeight="50" id="YuS-qn-B4x">
-                                        <rect key="frame" x="0.0" y="141" width="320" height="70"/>
+                                        <rect key="frame" x="0.0" y="141" width="320" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YuS-qn-B4x" id="dCN-yc-hKD">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="69"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="203" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MY COURSES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lcp-ZJ-taY" customClass="OEXCustomLabel">
@@ -445,10 +446,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="gray" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CellVideo" rowHeight="50" id="Onf-SS-P0i">
-                                        <rect key="frame" x="0.0" y="211" width="320" height="50"/>
+                                        <rect key="frame" x="0.0" y="191" width="320" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Onf-SS-P0i" id="BAV-r4-L0c">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="204" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MY VIDEOS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GO9-7U-W3R" customClass="OEXCustomLabel">
@@ -469,10 +470,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="gray" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CellFindCourses" rowHeight="50" id="Jkx-wc-oGY">
-                                        <rect key="frame" x="0.0" y="211" width="320" height="50"/>
+                                        <rect key="frame" x="0.0" y="241" width="320" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Jkx-wc-oGY" id="Iht-9i-ycY">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="204" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FIND COURSES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EfY-2m-mAz" customClass="OEXCustomLabel">
@@ -490,10 +491,10 @@
                                         <color key="backgroundColor" red="0.15686274510000001" green="0.16862745100000001" blue="0.1843137255" alpha="1" colorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="gray" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CellSetting" rowHeight="50" id="Hmd-TD-4eC">
-                                        <rect key="frame" x="0.0" y="321" width="320" height="70"/>
+                                        <rect key="frame" x="0.0" y="291" width="320" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Hmd-TD-4eC" id="4ma-P0-sml">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="69"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="205" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MY SETTINGS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Et-PU-vDe">
@@ -511,10 +512,10 @@
                                         <color key="backgroundColor" red="0.15686274510000001" green="0.16862745100000001" blue="0.1843137255" alpha="1" colorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CellSubmitFeedback" rowHeight="50" id="F82-OQ-3cW">
-                                        <rect key="frame" x="0.0" y="261" width="320" height="60"/>
+                                        <rect key="frame" x="0.0" y="341" width="320" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="F82-OQ-3cW" id="f85-Z4-zfs">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="204" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SUBMIT FEEDBACK" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="koV-6t-sw8" customClass="OEXCustomLabel">
@@ -532,10 +533,10 @@
                                         <color key="backgroundColor" red="0.15686274510000001" green="0.16862745100000001" blue="0.1843137255" alpha="1" colorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CellLogout" rowHeight="179" id="eNT-vL-DdU">
-                                        <rect key="frame" x="0.0" y="391" width="320" height="188"/>
+                                        <rect key="frame" x="0.0" y="391" width="320" height="179"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eNT-vL-DdU" id="YJL-Mz-nNW">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="187"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="179"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" tag="207" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jag-qX-pQo">
@@ -751,7 +752,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="FindCell" rowHeight="188" id="e6Q-Cc-OiC" customClass="OEXFindCourseTableViewCell">
-                                        <rect key="frame" x="0.0" y="8" width="320" height="188"/>
+                                        <rect key="frame" x="0.0" y="196" width="320" height="188"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="e6Q-Cc-OiC" id="wtO-0z-vOw">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="188"/>
@@ -1055,7 +1056,7 @@
                                                 <rect key="frame" x="0.0" y="22" width="320" height="54"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZPs-0h-Cc6" id="u7S-08-07B">
-                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="53"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="53.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="402" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LAST ACCESSED -" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tid-4j-TOT" customClass="OEXCustomLabel">
@@ -1064,7 +1065,7 @@
                                                                 <constraint firstAttribute="width" constant="126" id="71g-vM-2uy"/>
                                                             </constraints>
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                            <color key="textColor" red="0.12549019607843137" green="0.61568627450980395" blue="0.84705882352941175" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <color key="textColor" red="0.14901960784313725" green="0.73725490196078436" blue="0.84313725490196079" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="403" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Class 7 : What's Relevant" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9TR-Hn-yVY" customClass="OEXCustomLabel">
@@ -1087,7 +1088,7 @@
                                                         <constraint firstItem="Tid-4j-TOT" firstAttribute="centerY" secondItem="u7S-08-07B" secondAttribute="centerY" constant="0.5" id="sQx-7N-T93"/>
                                                     </constraints>
                                                 </tableViewCellContentView>
-                                                <color key="backgroundColor" red="0.96470588235294119" green="0.9882352941176471" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="backgroundColor" red="0.14901960784313725" green="0.73725490196078436" blue="0.84313725490196079" alpha="0.050000000000000003" colorSpace="calibratedRGB"/>
                                                 <accessibility key="accessibilityConfiguration" label="">
                                                     <bool key="isElement" value="YES"/>
                                                 </accessibility>
@@ -1100,7 +1101,7 @@
                                                 <rect key="frame" x="0.0" y="76" width="320" height="44"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LZH-oE-eXO" id="9hD-JT-7WM">
-                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <view alpha="0.5499999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8az-ZP-2W1">
@@ -1205,7 +1206,7 @@
                                         </collectionViewFlowLayout>
                                         <cells>
                                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="tabCell" id="v0k-ja-swZ" customClass="OEXTabBarItemsCell">
-                                                <rect key="frame" x="0.0" y="1" width="165" height="44"/>
+                                                <rect key="frame" x="0.0" y="0.5" width="165" height="44"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                                     <rect key="frame" x="0.0" y="0.0" width="165" height="44"/>
@@ -1330,7 +1331,7 @@
                                         <rect key="frame" x="0.0" y="22" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Fpf-f9-P68" id="Nvd-Tx-bFJ">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="404" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Getting Started (2)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jcI-vN-7p9" customClass="OEXCustomLabel">
@@ -1501,7 +1502,7 @@
                                         <rect key="frame" x="0.0" y="22" width="320" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QKK-Kn-ZiN" id="af0-pa-KDy">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sMK-ih-nXN">
@@ -1782,7 +1783,7 @@
                                         <rect key="frame" x="0.0" y="22" width="320" height="78"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ia0-n2-Egw" id="5Jl-kt-Wm4">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="77"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="77.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="501" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Introduction to giving with purpose" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lkq-xx-bbI" customClass="OEXCustomLabel">
@@ -1808,7 +1809,7 @@
                                                 </label>
                                                 <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="OaR-ut-cUz">
                                                     <rect key="frame" x="16" y="61" width="261" height="2"/>
-                                                    <color key="progressTintColor" red="0.49411764705882355" green="0.7803921568627451" blue="0.5607843137254902" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="progressTintColor" red="0.14901960784313725" green="0.73725490196078436" blue="0.84313725490196079" alpha="1" colorSpace="calibratedRGB"/>
                                                     <color key="trackTintColor" red="0.8862745098" green="0.89019607840000003" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
                                                 </progressView>
                                                 <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ws-A3-CQx">
@@ -1928,7 +1929,7 @@
                                                 <rect key="frame" x="0.0" y="50" width="320" height="60"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fbq-k2-1RC" id="oTV-bL-e0V">
-                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="501" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Introduction to giving with purpose" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RI1-Qw-2zX" customClass="OEXCustomLabel">
@@ -2051,7 +2052,7 @@
                                         </collectionViewFlowLayout>
                                         <cells>
                                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="tabCell" id="vCV-mN-UgP" customClass="OEXTabBarItemsCell">
-                                                <rect key="frame" x="0.0" y="1" width="165" height="44"/>
+                                                <rect key="frame" x="0.0" y="0.5" width="165" height="44"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                                     <rect key="frame" x="0.0" y="0.0" width="165" height="44"/>
@@ -2436,7 +2437,7 @@
                                         <rect key="frame" x="0.0" y="50" width="320" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6Kd-DT-Nyr" id="8u2-gE-PIM">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="501" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Introduction to giving with purpose" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jkP-to-cCH" customClass="OEXCustomLabel">
@@ -2626,9 +2627,9 @@
         <image name="bt_logout_active.png" width="368" height="80"/>
         <image name="bt_logout_default.png" width="368" height="80"/>
         <image name="bt_scrollbar_tap.png" width="229" height="80"/>
-        <image name="bt_signin_active.png" width="525" height="100"/>
         <image name="bt_signin_deactive.png" width="525" height="100"/>
         <image name="bt_view_default.png" width="145" height="60"/>
+        <image name="cloudera_cropped_logo" width="1000" height="184"/>
         <image name="ic_blue2_pressed.png" width="335" height="60"/>
         <image name="ic_cancel.png" width="24" height="24"/>
         <image name="ic_checkbox_default.png" width="50" height="50"/>
@@ -2638,7 +2639,6 @@
         <image name="ic_navigation.png" width="22" height="22"/>
         <image name="ic_partiallywatched.png" width="12" height="12"/>
         <image name="ic_starting.png" width="212" height="29"/>
-        <image name="logo.png" width="141" height="65"/>
         <image name="separator.png" width="526" height="2"/>
         <image name="separator1.png" width="416" height="1"/>
     </resources>
@@ -2648,7 +2648,7 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="sjq-Lc-gRE"/>
         <segue reference="9Go-3K-6oZ"/>
-        <segue reference="gGn-1p-Gmj"/>
     </inferredMetricsTieBreakers>
 </document>
