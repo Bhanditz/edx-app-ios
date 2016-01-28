@@ -219,7 +219,7 @@
     if([OEXSession sharedSession].currentUser != nil) {
         if(IS_IOS8) {
             self.imgOverlay = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
-//            [self.imgOverlay setImage:[UIImage imageNamed:@"splash9640x1136.png"]];
+            [self.imgOverlay setImage:[UIImage imageNamed:@"splash9640x1136.png"]];
             [self.view addSubview:self.imgOverlay];
             self.imgOverlay.hidden = NO;
         }
