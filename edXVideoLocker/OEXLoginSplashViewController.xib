@@ -51,8 +51,8 @@
                         <action selector="showLogin:" destination="-1" eventType="touchUpInside" id="bpi-ei-60F"/>
                     </connections>
                 </button>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="cloudera_cropped_logo" translatesAutoresizingMaskIntoConstraints="NO" id="KSL-zR-AIM">
-                    <rect key="frame" x="163" y="19" width="275" height="78"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloudera_cropped_logo" translatesAutoresizingMaskIntoConstraints="NO" id="KSL-zR-AIM">
+                    <rect key="frame" x="225.5" y="46" width="150" height="74"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="74" id="VkP-rt-iAz"/>
                         <constraint firstAttribute="width" constant="150" id="thr-UM-pMU"/>
