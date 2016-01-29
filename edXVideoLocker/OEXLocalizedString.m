@@ -10,6 +10,11 @@
 
 #import <Smartling.i18n/SLLocalization.h>
 
+//NSString* OEXLocalizedString(NSString* key, NSString* comment) {
+//    NSString* result = NSLocalizedString(key, comment);
+//    return result;
+//}
+
 NSString* OEXLocalizedString(NSString* key, NSString* comment) {
     NSString* result = NSLocalizedString(key, comment);
     NSRange range = NSMakeRange(0, result.length);

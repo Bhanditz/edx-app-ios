@@ -9,7 +9,6 @@
             <connections>
                 <outlet property="signInButton" destination="dJC-c2-JVU" id="GkN-i6-f70"/>
                 <outlet property="signUpButton" destination="AEY-cT-K95" id="FUr-Ml-oWt"/>
-                <outlet property="splashStartImage" destination="SIO-jm-HLG" id="oRQ-Bw-hEo"/>
                 <outlet property="view" destination="IfH-km-N4o" id="hud-pD-B81"/>
             </connections>
         </placeholder>

@@ -137,7 +137,7 @@ NSString* const OEXExternalRegistrationWithExistingAccountNotification = @"OEXEx
     self.automaticallyAdjustsScrollViewInsets = NO;
     // set the custom navigation view properties
 
-    self.titleLabel.text = OEXLocalizedString(@"REGISTRATION_SIGN_UP_FOR_EDX", nil);
+    self.titleLabel.text = OEXLocalizedString(@"REGISTRATION_SIGN_UP", nil);
     [self.titleLabel setFont:[UIFont fontWithName:semiboldFont size:20.f]];
 
     ////Create and initalize 'btnCreateAccount' button
