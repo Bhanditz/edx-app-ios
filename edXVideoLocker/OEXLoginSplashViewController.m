@@ -26,6 +26,7 @@
         /// When the login screen is shown, it then check if the user has a token and hides itself
         [[OEXRouter sharedRouter] showLoginScreenFromController:self animated:NO];
     }
+    
 }
 
 - (void)viewWillAppear:(BOOL)animated {

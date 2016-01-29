@@ -23,7 +23,7 @@
 /* Error message shown when there is a problem loading a video */
 "CHECK_CONNECTION"="Problem loading video.\nPlease check your Internet connection.";
 /* Prompt text shown after user chooses to begin registering with an external service like Facebook or Google. {service} will be replaced with a service name like Google or Facebook. */
-"COMPLETE_REGISTRATION_INFO" = "You've successfully signed in with {service}. We just need a little more information before you start learning with edX.";
+"COMPLETE_REGISTRATION_INFO" = "You've successfully signed in with {service}. We just need a little more information before you start learning with {app_name}.";
 /* Prompt text shown after user chooses to begin registering with an external service like Facebook or Google */
 "COMPLETE_REGISTRATION_PROMPT" = "Complete your registration";
 /* Title of alert when confirming deletion of a video */
@@ -65,9 +65,9 @@
 /* Facebook login method */
 "FACEBOOK"="Facebook";
 /* Overlay message shown when facebook login fails because the user's account isn't linked */
-"FACEBOOK_ACCOUNT_NOT_ASSOCIATED_MESSAGE"="Make sure your Facebook account is associated with your edX account on edx.org";
+"FACEBOOK_ACCOUNT_NOT_ASSOCIATED_MESSAGE"="Make sure your Facebook account is associated with your {app_name} account on {website}";
 /* Title for overlay message shown when facebook login fails */
-"FACEBOOK_ACCOUNT_NOT_ASSOCIATED_TITLE"="Facebook account not associated with edX account";
+"FACEBOOK_ACCOUNT_NOT_ASSOCIATED_TITLE"="Facebook account not associated with {app_name} account";
 /* Title of find courses screen */
 "FIND_COURSES"="Find Courses";
 /* Overlay message shown when enrolling in a course fails because the user is already in the course */
@@ -87,9 +87,9 @@
 /* Google login method */
 "GOOGLE"="Google";
 /* Overlay message shown when facebook login fails because the user's account isn't linked */
-"GOOGLE_ACCOUNT_NOT_ASSOCIATED_MESSAGE"="Make sure your Google account is associated with your edX account on edx.org";
+"GOOGLE_ACCOUNT_NOT_ASSOCIATED_MESSAGE"="Make sure your Google account is associated with your {app_name} account on {website}";
 /* Title of overlay message shown when facebook login fails because the user's account isn't linked */
-"GOOGLE_ACCOUNT_NOT_ASSOCIATED_TITLE"="Google account not associated with edX account";
+"GOOGLE_ACCOUNT_NOT_ASSOCIATED_TITLE"="Google account not associated with {app_name} account";
 /* Message shown when there are no announcements for a course */
 "HANDOUTS_UNAVAILABLE"="There are currently no handouts for this course.";
 /* Overlay error shown when logging in with an invalid email address */
@@ -101,7 +101,7 @@
 /* Alert dialog title when asking whether it's okay to download large videos */
 "LARGE_DOWNLOAD_TITLE"="Large Download";
 /* Button title to begin login */
-"LOGIN_SIGN_IN_TO_EDX"="Sign in to edX";
+"LOGIN_SIGN_IN_TO_{app_name}"="Sign in to {app_name}";
 /* Prompt leading user to create account screen */
 "LOGIN_SPLASH_SIGN_UP"="Sign up and start learning";
 /* Prompt leading user to sign in screen */
@@ -149,9 +149,9 @@
 /* Create account agreement. Followed by agreement name like "End User License Agreement */
 "REDIRECT_TEXT" = "By signing in to this app, you agree to the";
 /* Title of registration agreement */
-"REGISTRATION_AGREEMENT_BUTTON_TITLE"="edX Terms of Service and Honor Code";
+"REGISTRATION_AGREEMENT_BUTTON_TITLE"="{app_name} Terms of Service and Honor Code";
 /* Create account agreement. Followed by list of agreement names like "End User License Agreement" */
-"REGISTRATION_AGREEMENT_MESSAGE"="By creating an edX account, you agree to the ";
+"REGISTRATION_AGREEMENT_MESSAGE"="By creating an {app_name} account, you agree to the ";
 /* Button text allowing user create an account */
 "REGISTRATION_CREATE_MY_ACCOUNT"="Create my account";
 /* Text shown while waiting for registration request */
@@ -173,7 +173,7 @@
 /* Heading on registration screen allowing users to sign up using external services like Facebook and Google. Will be preceded by text "Sign up with" */
 "REGISTRATION_SIGN_UP_ALTERNATE_PROMPT"="or sign up with email";
 /* Registration screen title */
-"REGISTRATION_SIGN_UP_FOR_EDX"="Sign up for edX";
+"REGISTRATION_SIGN_UP_FOR_{app_name}"="Sign up for {app_name}";
 /* Alert dialog title prompting user to enter an email address to reset their password */
 "RESET_PASSWORD_TITLE"="Reset Password";
 /* Alert dialog content prompting user to enter an email address to reset their password */
@@ -220,6 +220,8 @@
 "VIDEO_NOT_AVAILABLE"="This video is not available in offline mode.\nPlease select a video that you've downloaded onto your device.";
 /* Overlay shown after a network request has started, telling the user to wait for the response */
 "WAITING_FOR_RESPONSE"="Please wait...";
+//Website at which users register
+"WEBSITE"="edx.org";
 /* Alert dialog button title to confirm an action */
 "YES"="Yes";
 

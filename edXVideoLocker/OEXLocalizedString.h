@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+#define APP_NAME @"edX"
+
 /// Use this for *all* strings displayed to the user
 /// unless they need to handle plurals in which case see OEXLocalizedStringPlural
 /// The string should be defined in Localizable.strings

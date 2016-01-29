@@ -599,13 +599,19 @@
             // MOB - 1110 - Social login error if the user's account is not linked with edX.
             if([self.strLoggedInWith isEqualToString:@"Facebook"]) {
                 dispatch_async(dispatch_get_main_queue(), ^{
-                    [self loginFailed: OEXLocalizedString(@"FACEBOOK_ACCOUNT_NOT_ASSOCIATED_MESSAGE", nil )
+                    NSString * website = OEXLocalizedString(@"WEBSITE", nil );
+                    NSAttributedString * notAssociatedMessage = [[NSAttributedString alloc] initWithString:OEXLocalizedString(@"FACEBOOK_ACCOUNT_NOT_ASSOCIATED_MESSAGE", nil )];
+                    [notAssociatedMessage oex_formatWithParameters:@{@"website" : website}];
+                    [self loginFailed: [notAssociatedMessage string]
                                 Title: OEXLocalizedString(@"FACEBOOK_ACCOUNT_NOT_ASSOCIATED_TITLE", nil ) ];
                 });
             }
             else if([self.strLoggedInWith isEqualToString:@"Google"]) {
                 dispatch_async(dispatch_get_main_queue(), ^{
-                    [self loginFailed: OEXLocalizedString(@"GOOGLE_ACCOUNT_NOT_ASSOCIATED_MESSAGE", nil )
+                    NSString * website = OEXLocalizedString(@"WEBSITE", nil );
+                    NSAttributedString * notAssociatedMessage = [[NSAttributedString alloc] initWithString:OEXLocalizedString(@"GOOGLE_ACCOUNT_NOT_ASSOCIATED_MESSAGE", nil )];
+                    [notAssociatedMessage oex_formatWithParameters:@{@"website" : website}];
+                    [self loginFailed: [notAssociatedMessage string]
                                 Title: OEXLocalizedString(@"GOOGLE_ACCOUNT_NOT_ASSOCIATED_TITLE", nil ) ];
                 });
             }
@@ -816,5 +822,7 @@
         originalOffset = scrollView.contentOffset;
     }
 }
+
+
 
 @end

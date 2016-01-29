@@ -12,6 +12,10 @@
 
 NSString* OEXLocalizedString(NSString* key, NSString* comment) {
     NSString* result = NSLocalizedString(key, comment);
+    NSRange range = NSMakeRange(0, result.length);
+    NSMutableString * replaceableWithAppName = [NSMutableString stringWithString:result];
+    [replaceableWithAppName replaceOccurrencesOfString:@"{app_name}" withString:APP_NAME options:0 range:range];
+    result = replaceableWithAppName;
     return result;
 }
 

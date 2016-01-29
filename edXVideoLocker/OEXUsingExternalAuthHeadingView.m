@@ -104,4 +104,12 @@ static const UIEdgeInsets OEXUsingExternalAuthMessageInsets = {.top = 10, .left 
     return [message oex_formatWithParameters:@{@"service" : serviceString}];
 }
 
+- (NSAttributedString*)messageTextWithAppName:(NSString*)appName message: (NSString*)message {
+    NSAttributedString* localizedMessage = [self.styles.headingMessageTextStyle attributedStringWithText: OEXLocalizedString(message, nil)];
+    NSAttributedString* serviceString = [self.styles.headingMessageProviderStyle attributedStringWithText:appName];
+    return [localizedMessage oex_formatWithParameters:@{@"app_name" : serviceString}];
+}
+
+
+
 @end
