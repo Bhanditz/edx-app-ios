@@ -207,7 +207,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    self.titleLabel.text = OEXLocalizedString(@"LOGIN_SIGN_IN_TO_EDX", nil);
+    self.titleLabel.text = OEXLocalizedString(@"LOGIN_SIGN_IN", nil);
     [self.titleLabel setFont:[UIFont fontWithName:@"OpenSans-Semibold" size:20]];
 
     [self.btn_TroubleLogging setTitle:OEXLocalizedString(@"TROUBLE_IN_LOGIN_BUTTON", nil) forState:UIControlStateNormal];
