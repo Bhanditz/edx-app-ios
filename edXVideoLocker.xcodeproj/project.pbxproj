@@ -2518,7 +2518,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LLVM_LTO = NO;
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cloudera.ondemand;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appsembler.cloudera.ondemand;
 				PRODUCT_NAME = edX;
 				WRAPPER_EXTENSION = app;
 			};
@@ -2652,7 +2652,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LLVM_LTO = NO;
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cloudera.ondemand;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appsembler.cloudera.ondemand;
 				PRODUCT_NAME = edX;
 				WRAPPER_EXTENSION = app;
 			};
@@ -2676,7 +2676,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LLVM_LTO = NO;
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cloudera.ondemand;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appsembler.cloudera.ondemand;
 				PRODUCT_NAME = edX;
 				WRAPPER_EXTENSION = app;
 			};
