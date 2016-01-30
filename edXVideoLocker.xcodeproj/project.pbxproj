@@ -1948,6 +1948,7 @@
 				ORGANIZATIONNAME = edX;
 				TargetAttributes = {
 					BECB7B0A1924C0C3009C77F1 = {
+						DevelopmentTeam = HCB39U9289;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -2517,6 +2518,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LLVM_LTO = NO;
 				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudera.ondemand;
 				PRODUCT_NAME = edX;
 				WRAPPER_EXTENSION = app;
 			};
@@ -2650,6 +2652,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LLVM_LTO = NO;
 				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudera.ondemand;
 				PRODUCT_NAME = edX;
 				WRAPPER_EXTENSION = app;
 			};
@@ -2673,6 +2676,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LLVM_LTO = NO;
 				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudera.ondemand;
 				PRODUCT_NAME = edX;
 				WRAPPER_EXTENSION = app;
 			};
