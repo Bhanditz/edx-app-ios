@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>edX</string>
+	<string>Cloudera</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIcons</key>
@@ -21,15 +21,15 @@
 		</dict>
 	</dict>
 	<key>CFBundleIdentifier</key>
-	<string>org.edx.mobile</string>
+	<string>com.cloudera.connect</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>edX</string>
+	<string>Cloudera</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.6</string>
+	<string>1.0.7</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleURLTypes</key>
@@ -38,17 +38,17 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>org.edx.mobile</string>
+			<string>com.cloudera.connect</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>org.edx.mobile</string>
+				<string>com.cloudera.connect</string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1.0.43</string>
 	<key>FacebookDisplayName</key>
-	<string>Edx</string>
+	<string>Cloudera</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UIAppFonts</key>

@@ -221,7 +221,7 @@
 /* Overlay shown after a network request has started, telling the user to wait for the response */
 "WAITING_FOR_RESPONSE"="Please wait...";
 //Website at which users register
-"WEBSITE"="edx.org";
+"WEBSITE"="http://mobile.appsembler.com";
 /* Alert dialog button title to confirm an action */
 "YES"="Yes";
 

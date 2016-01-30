@@ -1289,11 +1289,11 @@
                "required": true,
                "name": "honor_code",
                "errorMessages": {
-               "required": "You must agree to the edX <a href=\"https://www.edx.org/terms\">Terms of Service and Honor Code</a>."
+               "required": "You must agree to the <a href=\"https://www.edx.org/terms\">Terms of Service and Honor Code</a>."
                },
                "agreement" : {
                "url" : "https://www.edx.org/terms",
-               "text" : "edX End User Licensing Agreement"
+               "text" : "End User Licensing Agreement"
                },
                "placeholder" : "",
                "defaultValue": false,
