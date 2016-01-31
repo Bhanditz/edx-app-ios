@@ -46,7 +46,7 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.0.7.1</string>
+	<string>1.0.7.2</string>
 	<key>FacebookDisplayName</key>
 	<string>Cloudera</string>
 	<key>LSRequiresIPhoneOS</key>
@@ -82,29 +82,6 @@
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>fetch</string>
-	</array>
-	<key>UILaunchImages</key>
-	<array>
-		<dict>
-			<key>UILaunchImageMinimumOSVersion</key>
-			<string>7.0</string>
-			<key>UILaunchImageName</key>
-			<string>splash9640x1136</string>
-			<key>UILaunchImageOrientation</key>
-			<string>Portrait</string>
-			<key>UILaunchImageSize</key>
-			<string>{320, 568}</string>
-		</dict>
-		<dict>
-			<key>UILaunchImageMinimumOSVersion</key>
-			<string>7.0</string>
-			<key>UILaunchImageName</key>
-			<string>splash(640x960)</string>
-			<key>UILaunchImageOrientation</key>
-			<string>Portrait</string>
-			<key>UILaunchImageSize</key>
-			<string>{320, 480}</string>
-		</dict>
 	</array>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>

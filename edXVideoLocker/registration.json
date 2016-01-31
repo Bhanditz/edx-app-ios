@@ -1283,23 +1283,23 @@
                "defaultValue": "",
                "instructions": "",
                "type": "textarea",
-               "label": "Tell us why you're interested in edX"
+               "label": "Tell us why you're interested in Cloudera OnDemand"
                }, {
                "restrictions": {},
                "required": true,
                "name": "honor_code",
                "errorMessages": {
-               "required": "You must agree to the <a href=\"https://www.edx.org/terms\">Terms of Service and Honor Code</a>."
+               "required": "You must agree to the <a href=\"http://www.cloudera.com/legal/terms-and-conditions.html\">Terms of Service and Honor Code</a>."
                },
                "agreement" : {
-               "url" : "https://www.edx.org/terms",
+               "url" : "http://www.cloudera.com/legal/terms-and-conditions.html",
                "text" : "End User Licensing Agreement"
                },
                "placeholder" : "",
                "defaultValue": false,
                "instructions": "",
                "type": "checkbox",
-               "label": "I agree to the edX <a href=\"https://www.edx.org/terms\">Terms of Service and Honor Code</a>."
+               "label": "I agree to the Cloudera OnDemand <a href=\"http://www.cloudera.com/legal/terms-and-conditions.html\">Terms of Service and Honor Code</a>."
                }],
     "method": "post"
 }
