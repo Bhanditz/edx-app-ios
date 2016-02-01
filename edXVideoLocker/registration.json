@@ -1283,23 +1283,23 @@
                "defaultValue": "",
                "instructions": "",
                "type": "textarea",
-               "label": "Tell us why you're interested in Cloudera OnDemand"
+               "label": "Tell us why you're interested in {app_name}"
                }, {
                "restrictions": {},
                "required": true,
                "name": "honor_code",
                "errorMessages": {
-               "required": "You must agree to the <a href=\"http://www.cloudera.com/legal/terms-and-conditions.html\">Terms of Service and Honor Code</a>."
+               "required": "You must agree to the <a href=\"{terms_url}\">{app_name} Terms of Service and Honor Code</a>."
                },
                "agreement" : {
-               "url" : "http://www.cloudera.com/legal/terms-and-conditions.html",
-               "text" : "End User Licensing Agreement"
+               "url" : "{terms_url}",
+               "text" : "{app_name} End User Licensing Agreement"
                },
                "placeholder" : "",
                "defaultValue": false,
                "instructions": "",
                "type": "checkbox",
-               "label": "I agree to the Cloudera OnDemand <a href=\"http://www.cloudera.com/legal/terms-and-conditions.html\">Terms of Service and Honor Code</a>."
+               "label": "I agree to the {app_name} <a href=\"{terms_url}\">Terms of Service and Honor Code</a>."
                }],
     "method": "post"
 }

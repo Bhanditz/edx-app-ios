@@ -14,6 +14,14 @@
 #import "OEXNewRelicConfig.h"
 #import "OEXSegmentConfig.h"
 #import "OEXZeroRatingConfig.h"
+
+#define APP_NAME @"Cloudera OnDemand"
+#define TERMS_URL @"http://www.cloudera.com/legal/terms-and-conditions.html"
+#define BRAND_LIGHT_COLOR @"ffffff"
+//#define BRAND_MEDIUM_COLOR @"2970D6" //default edX
+#define BRAND_MEDIUM_COLOR @"26bcd7"
+#define BRAND_DARK_COLOR @"00577b"
+
 @interface OEXConfig : NSObject
 
 /// Note that this is not thread safe. The expectation is that this only happens

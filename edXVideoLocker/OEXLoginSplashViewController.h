@@ -7,5 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AppsemblerUtils.h"
+#import "OEXConfig.h"
+
 @interface OEXLoginSplashViewController : UIViewController
 @end

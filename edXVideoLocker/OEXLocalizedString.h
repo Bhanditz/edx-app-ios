@@ -7,8 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
-#define APP_NAME @"Cloudera"
+#import "OEXConfig.h"
 
 /// Use this for *all* strings displayed to the user
 /// unless they need to handle plurals in which case see OEXLocalizedStringPlural

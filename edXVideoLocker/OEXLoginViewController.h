@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "NSAttributedString+OEXFormatting.h"
-
+#import "AppsemblerUtils.h"
+#import "OEXConfig.h"
 
 @interface OEXLoginViewController : UIViewController <UIAlertViewDelegate>
 

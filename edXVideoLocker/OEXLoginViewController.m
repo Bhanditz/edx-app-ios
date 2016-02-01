@@ -33,6 +33,7 @@
 #import "Reachability.h"
 #import "SWRevealViewController.h"
 
+
 #define USER_EMAIL @"USERNAME"
 
 @interface OEXLoginViewController () <NSURLSessionDelegate>
@@ -209,12 +210,15 @@
 
     self.titleLabel.text = OEXLocalizedString(@"LOGIN_SIGN_IN", nil);
     [self.titleLabel setFont:[UIFont fontWithName:@"OpenSans-Semibold" size:20]];
+    [_titleLabel setAdjustsFontSizeToFitWidth:YES];
+    [_titleLabel setMinimumScaleFactor:0.5];
 
     [self.btn_TroubleLogging setTitle:OEXLocalizedString(@"TROUBLE_IN_LOGIN_BUTTON", nil) forState:UIControlStateNormal];
     [self.btn_Facebook setTitle:OEXLocalizedString(@"FACEBOOK", nil) forState:UIControlStateNormal];
     [self.btn_Google setTitle:OEXLocalizedString(@"GOOGLE", nil) forState:UIControlStateNormal];
     [self.lbl_OrSignIn setText:OEXLocalizedString(@"OR_SIGN_IN_WITH", nil)];
     [self.lbl_OrSignIn setTextColor:[UIColor colorWithRed:60.0 / 255.0 green:64.0 / 255.0 blue:69.0 / 255.0 alpha:1.0]];
+    
 
     if([OEXSession sharedSession].currentUser != nil) {
         if(IS_IOS8) {
@@ -310,8 +314,8 @@
 
 - (void)handleActivationDuringLogin {
     if(isSocialLoginClicked) {
-        [self.btn_TroubleLogging setTitleColor:[UIColor colorWithRed:31.0 / 255.0 green:159.0 / 255.0 blue:217.0 / 255.0 alpha:1.0] forState:UIControlStateNormal];
-        [self.btn_OpenEULA setTitleColor:[UIColor colorWithRed:31.0 / 255.0 green:159.0 / 255.0 blue:217.0 / 255.0 alpha:1.0] forState:UIControlStateNormal];
+        [self.btn_TroubleLogging setTitleColor:[AppsemblerUtils colorFromHexString:BRAND_MEDIUM_COLOR] forState:UIControlStateNormal];
+        [self.btn_OpenEULA setTitleColor:[AppsemblerUtils colorFromHexString:BRAND_MEDIUM_COLOR] forState:UIControlStateNormal];
 
         [self.btn_Login setTitle:[self signInButtonText] forState:UIControlStateNormal];
         [self.activityIndicator stopAnimating];
@@ -347,9 +351,11 @@
     self.tf_Password.text = @"";
 
     self.lbl_Redirect.text = OEXLocalizedString(@"REDIRECT_TEXT", nil);
-    [self.btn_TroubleLogging setTitleColor:[UIColor colorWithRed:31.0 / 255.0 green:159.0 / 255.0 blue:217.0 / 255.0 alpha:1.0] forState:UIControlStateNormal];
-    [self.btn_OpenEULA setTitleColor:[UIColor colorWithRed:31.0 / 255.0 green:159.0 / 255.0 blue:217.0 / 255.0 alpha:1.0] forState:UIControlStateNormal];
+    [self.btn_TroubleLogging setTitleColor:[AppsemblerUtils colorFromHexString:BRAND_MEDIUM_COLOR] forState:UIControlStateNormal];
+    [self.btn_OpenEULA setTitleColor:[AppsemblerUtils colorFromHexString:BRAND_MEDIUM_COLOR] forState:UIControlStateNormal];
     [self.btn_OpenEULA setTitle:OEXLocalizedString(@"REGISTRATION_AGREEMENT_BUTTON_TITLE", nil) forState:UIControlStateNormal];
+    [_btn_Login setBackgroundImage:nil forState:UIControlStateNormal];
+    [_btn_Login setBackgroundColor:[AppsemblerUtils colorFromHexString:BRAND_MEDIUM_COLOR]];
 
     [self.btn_Login setTitle:[self signInButtonText] forState:UIControlStateNormal];
     [self.activityIndicator stopAnimating];
@@ -399,6 +405,7 @@
     }
     return YES;
 }
+
 
 #pragma mark IBActions
 - (IBAction)openEULA:(id)sender {

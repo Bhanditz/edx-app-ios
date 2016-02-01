@@ -39,9 +39,14 @@
         self.name = dictionary[@"name"];
         self.isRequired = [dictionary[@"required"] boolValue];
         self.placeholder = dictionary[@"placeholder"];
+        self.placeholder = [AppsemblerUtils replaceStringInString:@"{app_name}" withThis:APP_NAME inThat:self.placeholder];
+        
         self.defaultValue = dictionary[@"defaultValue"];
         self.instructions = dictionary[@"instructions"];
+        self.instructions = [AppsemblerUtils replaceStringInString:@"{app_name}" withThis:APP_NAME inThat:self.instructions];
+        self.instructions = [AppsemblerUtils replaceStringInString:@"{terms_url}" withThis:TERMS_URL inThat:self.instructions];
         self.label = dictionary[@"label"];
+        self.label = [AppsemblerUtils replaceStringInString:@"{app_name}" withThis:APP_NAME inThat:self.label];
         self.type = dictionary[@"type"];
         self.fieldType = [self registrationFieldType:dictionary[@"type"]];
         self.errorMessage = [[OEXRegistrationErrorMessage alloc] initWithDictionary:dictionary[@"errorMessages"]];

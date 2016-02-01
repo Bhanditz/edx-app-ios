@@ -22,6 +22,10 @@
 
     [self.signInButton setTitle:OEXLocalizedString(@"LOGIN_SPLASH_SIGN_IN", nil) forState:UIControlStateNormal];
     [self.signUpButton setTitle:OEXLocalizedString(@"LOGIN_SPLASH_SIGN_UP", nil) forState:UIControlStateNormal];
+    [_signUpButton setBackgroundImage:nil forState:UIControlStateNormal];
+    [_signUpButton setBackgroundImage:nil forState:UIControlStateSelected];
+    [_signUpButton setBackgroundImage:nil forState:UIControlStateHighlighted];
+    [_signUpButton setBackgroundColor:[AppsemblerUtils colorFromHexString:BRAND_MEDIUM_COLOR]];
     if([OEXSession sharedSession].currentUser != nil) {
         /// When the login screen is shown, it then check if the user has a token and hides itself
         [[OEXRouter sharedRouter] showLoginScreenFromController:self animated:NO];

@@ -76,7 +76,7 @@
     </objects>
     <resources>
         <image name="bt_signin_active.png" width="525" height="100"/>
-        <image name="logo.png" width="141" height="65"/>
+        <image name="logo.png" width="150" height="74"/>
         <image name="splash-start-lg.png" width="1122" height="1920"/>
     </resources>
 </document>

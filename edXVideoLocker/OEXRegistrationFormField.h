@@ -12,6 +12,8 @@
 #import "OEXRegistrationAgreement.h"
 #import "OEXRegistrationRestriction.h"
 #import "OEXRegistrationErrorMessage.h"
+#import "AppsemblerUtils.h"
+
 typedef enum
 {
     OEXRegistrationFieldTypeEmail,

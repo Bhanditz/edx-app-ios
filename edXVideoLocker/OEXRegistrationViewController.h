@@ -7,6 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "AppsemblerUtils.h"
+#import "OEXConfig.h"
 
 @class OEXRegistrationDescription;
 

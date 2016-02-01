@@ -205,11 +205,11 @@
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" tag="106" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vnx-9G-knu" customClass="OEXCustomButton">
-                                        <rect key="frame" x="65" y="398" width="191" height="21"/>
+                                        <rect key="frame" x="15" y="398" width="290" height="21"/>
                                         <accessibility key="accessibilityConfiguration" label="lnEULA"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="E6Q-CG-NRD"/>
-                                            <constraint firstAttribute="width" constant="191" id="PLv-bZ-i9j"/>
+                                            <constraint firstAttribute="width" constant="290" id="PLv-bZ-i9j"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                         <inset key="contentEdgeInsets" minX="0.0" minY="9" maxX="0.0" maxY="0.0"/>
@@ -227,7 +227,7 @@
                                     <constraint firstItem="xTe-0m-jmK" firstAttribute="top" secondItem="TiJ-eS-RmI" secondAttribute="bottom" constant="18" id="3ON-jd-LJN"/>
                                     <constraint firstItem="zxh-5r-gnd" firstAttribute="top" secondItem="FGV-ft-0j8" secondAttribute="bottom" constant="3" id="5ts-Xq-xMv"/>
                                     <constraint firstAttribute="trailing" secondItem="5BE-x0-EF7" secondAttribute="trailing" constant="40" id="8kN-wW-JPV"/>
-                                    <constraint firstAttribute="trailing" secondItem="Vnx-9G-knu" secondAttribute="trailing" constant="64" id="8n5-Gz-q3b"/>
+                                    <constraint firstAttribute="trailing" secondItem="Vnx-9G-knu" secondAttribute="trailing" constant="15" id="8n5-Gz-q3b"/>
                                     <constraint firstItem="5BE-x0-EF7" firstAttribute="top" secondItem="FGV-ft-0j8" secondAttribute="bottom" constant="3" id="A62-OR-V0i"/>
                                     <constraint firstItem="gsq-Uc-DeV" firstAttribute="centerX" secondItem="TiJ-eS-RmI" secondAttribute="centerX" id="AIZ-X1-HAh"/>
                                     <constraint firstItem="dfQ-cH-7KO" firstAttribute="top" secondItem="6uy-2U-9Jy" secondAttribute="bottom" constant="43" id="Ah7-sV-YWn"/>
@@ -254,7 +254,7 @@
                                     <constraint firstItem="gsq-Uc-DeV" firstAttribute="centerX" secondItem="6uy-2U-9Jy" secondAttribute="centerX" constant="-4" id="fch-oe-s9u"/>
                                     <constraint firstItem="KWE-6C-QRr" firstAttribute="top" secondItem="5NW-Mc-DSH" secondAttribute="bottom" constant="8" id="gG2-Fb-52H"/>
                                     <constraint firstItem="5NW-Mc-DSH" firstAttribute="top" secondItem="gsq-Uc-DeV" secondAttribute="bottom" constant="20" id="hI3-CC-XWN"/>
-                                    <constraint firstItem="Vnx-9G-knu" firstAttribute="leading" secondItem="R88-Ff-oeq" secondAttribute="leading" constant="65" id="n3B-cc-hCm"/>
+                                    <constraint firstItem="Vnx-9G-knu" firstAttribute="leading" secondItem="R88-Ff-oeq" secondAttribute="leading" constant="15" id="n3B-cc-hCm"/>
                                     <constraint firstItem="FGV-ft-0j8" firstAttribute="top" secondItem="TiJ-eS-RmI" secondAttribute="bottom" constant="9" id="pP3-3c-bbI"/>
                                     <constraint firstItem="Nrl-k6-37N" firstAttribute="top" secondItem="6uy-2U-9Jy" secondAttribute="bottom" constant="8" id="qSH-lF-g6V"/>
                                     <constraint firstItem="63s-3w-leg" firstAttribute="top" secondItem="gsq-Uc-DeV" secondAttribute="bottom" constant="20" id="qUr-aj-qKj"/>
@@ -2638,7 +2638,7 @@
         <image name="ic_navigation.png" width="22" height="22"/>
         <image name="ic_partiallywatched.png" width="12" height="12"/>
         <image name="ic_starting.png" width="212" height="29"/>
-        <image name="logo.png" width="141" height="65"/>
+        <image name="logo.png" width="150" height="74"/>
         <image name="separator.png" width="526" height="2"/>
         <image name="separator1.png" width="416" height="1"/>
     </resources>
