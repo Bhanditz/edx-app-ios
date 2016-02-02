@@ -440,6 +440,7 @@
 
         cellFind.btn_DontSeeCourse.titleLabel.font = [UIFont fontWithName:@"OpenSans" size:cellFind.btn_DontSeeCourse.titleLabel.font.pointSize];
         [cellFind.btn_DontSeeCourse addTarget:self action:@selector(dontSeeCourses:) forControlEvents:UIControlEventTouchUpInside];
+        
 
         return cellFind;
     }

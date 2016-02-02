@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "OEXConfig.h"
+#import "AppsemblerUtils.h"
 
 @interface OEXFindCourseTableViewCell : UITableViewCell
 

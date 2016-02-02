@@ -46,7 +46,7 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.0.7.1</string>
+	<string>1.0.7.4</string>
 	<key>FacebookDisplayName</key>
 	<string>Edx</string>
 	<key>LSRequiresIPhoneOS</key>
@@ -103,6 +103,7 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>

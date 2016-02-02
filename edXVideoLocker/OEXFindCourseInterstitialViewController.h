@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "OEXConfig.h"
+#import "AppsemblerUtils.h"
 
 @class OEXFindCourseInterstitialViewController;
 
@@ -16,5 +18,6 @@
 @end
 
 @interface OEXFindCourseInterstitialViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIButton *btn_openWebsiteInBrowser;
 @property (weak, nonatomic) id <OEXFindCourseInterstitialViewControllerDelegate> delegate;
 @end

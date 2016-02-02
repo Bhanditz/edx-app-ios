@@ -7,6 +7,7 @@
 //
 
 #import "OEXConfig.h"
+#import "AppsemblerUtils.h"
 
 // Please keep sorted alphabetically
 static NSString* const OEXAPIHostURL = @"API_HOST_URL";

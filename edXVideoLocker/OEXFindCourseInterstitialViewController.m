@@ -28,6 +28,8 @@
     NSMutableAttributedString* bottomLabelAttributedText = [[NSMutableAttributedString alloc] initWithString:bottomLabelText];
     [bottomLabelAttributedText setAttributes:@{NSFontAttributeName:[UIFont fontWithName:@"OpenSans" size:self.bottomLabel.font.pointSize]} range:[bottomLabelText rangeOfString:bottomLabelText]];
     self.bottomLabel.attributedText = bottomLabelAttributedText;
+    [_btn_openWebsiteInBrowser setBackgroundColor:[AppsemblerUtils colorFromHexString:BRAND_MEDIUM_COLOR]];
+    
 }
 
 - (IBAction)openInBrowserTapped:(id)sender {
