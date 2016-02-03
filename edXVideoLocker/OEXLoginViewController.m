@@ -316,6 +316,13 @@
     if(isSocialLoginClicked) {
         [self.btn_TroubleLogging setTitleColor:[AppsemblerUtils colorFromHexString:BRAND_MEDIUM_COLOR] forState:UIControlStateNormal];
         [self.btn_OpenEULA setTitleColor:[AppsemblerUtils colorFromHexString:BRAND_MEDIUM_COLOR] forState:UIControlStateNormal];
+        
+        [self.btn_TroubleLogging setTitleColor:[AppsemblerUtils colorFromHexString:BRAND_DARK_COLOR] forState:UIControlStateHighlighted];
+        [self.btn_OpenEULA setTitleColor:[AppsemblerUtils colorFromHexString:BRAND_DARK_COLOR] forState:UIControlStateHighlighted];
+        
+        [self.btn_TroubleLogging setTitleColor:[AppsemblerUtils colorFromHexString:BRAND_DARK_COLOR] forState:UIControlStateSelected];
+        [self.btn_OpenEULA setTitleColor:[AppsemblerUtils colorFromHexString:BRAND_DARK_COLOR] forState:UIControlStateSelected];
+        
 
         [self.btn_Login setTitle:[self signInButtonText] forState:UIControlStateNormal];
         [self.activityIndicator stopAnimating];

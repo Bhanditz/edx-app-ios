@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "OEXConfig.h"
+#import "AppsemblerUtils.h"
 
 // TODO replace this with a standard view we can add to a screen
 // There's no reason for this to be a singleton

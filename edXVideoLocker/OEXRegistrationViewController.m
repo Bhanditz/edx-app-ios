@@ -167,6 +167,9 @@ NSString* const OEXExternalRegistrationWithExistingAccountNotification = @"OEXEx
     [self.agreementLink setTitle:OEXLocalizedString(@"REGISTRATION_AGREEMENT_BUTTON_TITLE", nil) forState:UIControlStateNormal];
     [self.agreementLink.titleLabel setFont:[UIFont fontWithName:semiboldFont size:10]];
     [self.agreementLink setTitleColor: [AppsemblerUtils colorFromHexString:BRAND_MEDIUM_COLOR] forState:UIControlStateNormal];
+    [self.agreementLink setTitleColor: [AppsemblerUtils colorFromHexString:BRAND_DARK_COLOR] forState:UIControlStateSelected];
+    [self.agreementLink setTitleColor: [AppsemblerUtils colorFromHexString:BRAND_DARK_COLOR] forState:UIControlStateHighlighted];
+    
     [self.agreementLink addTarget:self action:@selector(agreementButtonTapped:) forControlEvents:UIControlEventTouchUpInside];
 
     //This button will show and hide optional fields

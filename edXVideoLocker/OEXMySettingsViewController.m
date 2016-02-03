@@ -39,6 +39,7 @@ typedef enum : NSUInteger
     [[self.dataInterface progressViews] addObject:self.customProgressBar];
     [[self.dataInterface progressViews] addObject:self.showDownloadsButton];
     [self.wifiOnlySwitch setOn:[OEXInterface shouldDownloadOnlyOnWifi]];
+    [_wifiOnlySwitch setOnTintColor:[AppsemblerUtils colorFromHexString:BRAND_MEDIUM_COLOR]];
 }
 
 - (void)setExclusiveTouches {

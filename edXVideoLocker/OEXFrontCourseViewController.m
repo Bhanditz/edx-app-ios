@@ -437,9 +437,14 @@
         OEXFindCourseTableViewCell* cellFind = [tableView dequeueReusableCellWithIdentifier:cellIndentifier];
         cellFind.btn_FindACourse.titleLabel.font = [UIFont fontWithName:@"OpenSans" size:cellFind.btn_FindACourse.titleLabel.font.pointSize];
         [cellFind.btn_FindACourse addTarget:self action:@selector(findCourses:) forControlEvents:UIControlEventTouchUpInside];
+        [cellFind.btn_FindACourse setBackgroundColor:[AppsemblerUtils colorFromHexString:BRAND_MEDIUM_COLOR]];
+        [cellFind.btn_FindACourse setBackgroundImage:nil forState:UIControlStateNormal];
 
         cellFind.btn_DontSeeCourse.titleLabel.font = [UIFont fontWithName:@"OpenSans" size:cellFind.btn_DontSeeCourse.titleLabel.font.pointSize];
         [cellFind.btn_DontSeeCourse addTarget:self action:@selector(dontSeeCourses:) forControlEvents:UIControlEventTouchUpInside];
+        [cellFind.btn_DontSeeCourse setTitleColor:[AppsemblerUtils colorFromHexString:BRAND_MEDIUM_COLOR] forState:UIControlStateNormal];
+        [cellFind.btn_DontSeeCourse setTitleColor:[AppsemblerUtils colorFromHexString:BRAND_DARK_COLOR] forState:UIControlStateHighlighted];
+        [cellFind.btn_DontSeeCourse setTitleColor:[AppsemblerUtils colorFromHexString:BRAND_DARK_COLOR] forState:UIControlStateSelected];
         
 
         return cellFind;

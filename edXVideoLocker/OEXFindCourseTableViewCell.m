@@ -15,8 +15,6 @@
     self.parentView.layer.cornerRadius = 5;
     self.parentView.layer.masksToBounds = YES;
     [self setAccessibilityLabels];
-    [self.btn_FindACourse setBackgroundColor:[AppsemblerUtils colorFromHexString:BRAND_MEDIUM_COLOR]];
-    [self.btn_DontSeeCourse setTitleColor:[AppsemblerUtils colorFromHexString:BRAND_MEDIUM_COLOR] forState:UIControlStateNormal];
 }
 
 - (void)setAccessibilityLabels {

@@ -129,7 +129,8 @@ static NSString* const OEXFindCoursePathPrefix = @"course/";
 
 - (void)interstitialViewControllerDidChooseToOpenInBrowser:(OEXFindCourseInterstitialViewController*)interstitialViewController {
     OEXConfig* config = [OEXConfig sharedConfig];
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[config courseEnrollmentConfig].externalSearchURL]];
+    NSURL * urlToOpen = [NSURL URLWithString:config.externalSearchURL];
+    [[UIApplication sharedApplication] openURL:urlToOpen];
 }
 
 - (void)interstitialViewControllerDidClose:(OEXFindCourseInterstitialViewController*)interstitialViewController {

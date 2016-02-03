@@ -2520,7 +2520,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "edXVideoLocker/edXVideoLocker-Prefix.pch";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INFOPLIST_FILE = "edXVideoLocker/edXVideoLocker-Info.plist";
+				INFOPLIST_FILE = "edXVideoLocker/edXVideoLocker-Info-debug.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LLVM_LTO = NO;
 				OTHER_LDFLAGS = "$(inherited)";

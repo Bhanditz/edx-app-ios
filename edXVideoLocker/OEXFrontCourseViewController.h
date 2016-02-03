@@ -12,6 +12,8 @@
 #import <MessageUI/MessageUI.h>
 #import "SWRevealViewController.h"
 #import "OEXRevealContentViewController+Protected.h"
+#import "OEXConfig.h"
+#import "AppsemblerUtils.h"
 
 @interface OEXFrontCourseViewController : OEXRevealContentViewController <UITableViewDataSource, UITableViewDelegate>
 

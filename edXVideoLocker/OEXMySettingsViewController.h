@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "OEXRevealOptionsViewController+Protected.h"
+#import "OEXConfig.h"
+#import "AppsemblerUtils.h"
 
 @interface OEXMySettingsViewController : OEXRevealOptionsViewController
 

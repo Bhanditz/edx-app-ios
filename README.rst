@@ -87,6 +87,17 @@ Here is a list of the graphic assets in this branch to replace if customizing th
     bg_map.png
     map.png, map@2x.png
     logo.png, logo@2x.png, logo@3x.png
+	
+Here is the list of changes to text for rebranding:
+	Replace Bundle Identifier in the project's Target (or found in plist) 
+	Replace APP_NAME in OEXLocalizedString.h from @"edX" to whatever the app should be called
+	Replace TERMS_URL in OEXLocalizedString.h from @"edX" to whatever the app should be called
+	Replace WEBSITE in Localizable.strings string with destination string for the customer's learning site
+	Replace Brand color define macros in AppsemblerUtils.h
+	Copy the terms and services html page from customer site and paste over Terms-and-Services.htm file
+		Find "/etc/" and replace with website root (eg. "http://www.cloudera.com/")
+		Clean up extraneous tags
+	
 
 If you need to make more in depth UI changes, most of the user interface is
 specified in the ``Main.storyboard`` file, editable from Interface Builder

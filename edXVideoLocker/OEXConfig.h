@@ -48,6 +48,8 @@
 // Network
 // TODO: Transition this to an actual NSURL
 - (NSString*)apiHostURL;
+- (NSString*)courseSearchURL;
+- (NSString*)externalSearchURL;
 - (NSString*)feedbackEmailAddress;
 - (NSString*)oauthClientID;
 - (NSString*)oauthClientSecret;

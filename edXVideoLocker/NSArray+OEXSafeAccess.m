@@ -11,7 +11,9 @@
 @implementation NSArray (OEXSafeAccess)
 
 - (id)oex_safeObjectAtIndex:(NSUInteger)index {
-    NSAssert(index < self.count, @"Index out of bounds");
+    if (index > self.count) {
+        NSLog(@"Index out of bounds");
+    }
     return [self oex_safeObjectOrNilAtIndex:index];
 }
 

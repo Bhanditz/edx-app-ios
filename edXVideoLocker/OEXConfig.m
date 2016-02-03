@@ -11,13 +11,15 @@
 
 // Please keep sorted alphabetically
 static NSString* const OEXAPIHostURL = @"API_HOST_URL";
+static NSString* const OEXCourseSearchURL = @"COURSE_SEARCH_URL";
+static NSString* const OEXExternalSearchURL = @"EXTERNAL_COURSE_SEARCH_URL";
 static NSString* const OEXEnvironmentDisplayName = @"ENVIRONMENT_DISPLAY_NAME";
 static NSString* const OEXFacebookAppID = @"FACEBOOK_APP_ID";
 static NSString* const OEXFeedbackEmailAddress = @"FEEDBACK_EMAIL_ADDRESS";
 static NSString* const OEXOAuthClientSecret = @"OAUTH_CLIENT_SECRET";
 static NSString* const OEXOAuthClientID = @"OAUTH_CLIENT_ID";
 
-// Compisite configurations keys
+// Composite configurations keys
 static NSString* const OEXCourseEnrollmentPropertiesKey = @"COURSE_ENROLLMENT";
 static NSString* const OEXFabricConfigKey = @"FABRIC";
 static NSString* const OEXFacebookConfigKey = @"FACEBOOK";
@@ -77,6 +79,14 @@ static OEXConfig* sSharedConfig;
 
 - (NSString*)apiHostURL {
     return [self stringForKey:OEXAPIHostURL];
+}
+
+- (NSString*)courseSearchURL {
+    return [self stringForKey:OEXCourseSearchURL];
+}
+
+- (NSString*)externalSearchURL {
+    return [self stringForKey:OEXExternalSearchURL];
 }
 
 - (NSString*)environmentName {

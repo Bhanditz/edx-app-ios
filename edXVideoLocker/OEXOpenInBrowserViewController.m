@@ -63,6 +63,9 @@ static OEXOpenInBrowserViewController* _sharedInterface = nil;
     self.lbl_Title.text = OEXLocalizedString(@"OPEN_IN_BROWSER_TITLE", nil);
 
     [self.btn_OpenInBrowser setTitle:[OEXLocalizedString(@"OPEN_IN_BROWSER", nil) oex_uppercaseStringInCurrentLocale] forState:UIControlStateNormal];
+    [self.btn_OpenInBrowser setTitleColor:[AppsemblerUtils colorFromHexString:BRAND_MEDIUM_COLOR] forState:UIControlStateNormal];
+    [self.btn_OpenInBrowser setTitleColor:[AppsemblerUtils colorFromHexString:BRAND_DARK_COLOR] forState:UIControlStateHighlighted];
+    [self.btn_OpenInBrowser setTitleColor:[AppsemblerUtils colorFromHexString:BRAND_DARK_COLOR] forState:UIControlStateSelected];
 }
 
 - (void)didReceiveMemoryWarning {
