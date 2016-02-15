@@ -97,6 +97,7 @@ Here is the list of changes to text for rebranding:
 	Copy the terms and services html page from customer site and paste over Terms-and-Services.htm file
 		Find "/etc/" and replace with website root (eg. "http://www.cloudera.com/")
 		Clean up extraneous tags
+	Tint all of the ic_… and btn_… images with the edX blue
 	
 
 If you need to make more in depth UI changes, most of the user interface is
