@@ -67,8 +67,39 @@ have the following ``edx.properties``:
         configFiles = ['shared.yaml', 'ios.yaml']
     }
 
+Your edx-platform will need to be configured to enable the mobile api.
+See this doc for details: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/mobile.html#enable-mobile-application-features
 
-The full set of known keys can be found in the ``OEXConfig.m`` file.
+
+To connect your mobile app to your edx-platform instance, you will need to 
+tell it where to access the api, create an oauth client, and store the client 
+id and client secret in your new ios.yaml file. 
+
+1. Store the ip address of your edx-platform in config.yaml:
+:: 
+   API_HOST_URL: '<your_edx-platform_ip>'
+
+2. Log in to your lms django backend. Under Oauth2, click Clients.  Add Client.
+The user is not necessary. Client type should be Confidential. Copy the id and 
+secret and save.
+
+3. Add these lines to your ios.yaml file:
+::
+   
+   OAUTH_CLIENT_ID: '<your_client_id>'
+   OAUTH_CLIENT_SECRET: '<your_client_secret>'
+
+See this doc for more details: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/mobile.html#create-the-oauth-clients
+
+The full set of known keys can be found in the ``OEXConfig.m`` file.  See also 
+`additional documentation <https://openedx.atlassian.net/wiki/display/MA/App+Configuration+Flags>`_.
+
+See this document for more info on setting up the mobile app:
+http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/mobile.html
+
+This has info on updates to the mobile app:
+http://edx.readthedocs.org/projects/edx-release-notes/en/latest/mobile_index.html
+
 
 Additional Customization
 ------------------------
