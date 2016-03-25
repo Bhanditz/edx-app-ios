@@ -21,8 +21,8 @@ extension JSON {
 }
 
 protocol DictionaryExtractionExtension {
-    typealias Key
-    typealias Value
+    associatedtype Key
+    associatedtype Value
     subscript(key: Key) -> Value? { get }
 }
 
