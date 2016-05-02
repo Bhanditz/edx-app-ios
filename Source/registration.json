@@ -1289,17 +1289,17 @@
                "required": true,
                "name": "honor_code",
                "errorMessages": {
-               "required": "You must agree to the edX <a href=\"https://www.edx.org/terms\">Terms of Service and Honor Code</a>."
+               "required": "You must agree to the <a href=\"http://www.appsembler.com/terms-of-use\">Terms of Use</a>."
                },
                "agreement" : {
-               "url" : "https://www.edx.org/terms",
+               "url" : "https://www.appsembler.com/terms-of-use",
                "text" : "edX End User Licensing Agreement"
                },
                "placeholder" : "",
                "defaultValue": false,
                "instructions": "",
                "type": "checkbox",
-               "label": "I agree to the edX <a href=\"https://www.edx.org/terms\">Terms of Service and Honor Code</a>."
+               "label": "I agree to the edX <a href=\"http://www.appsembler.com/terms-of-use\">\">Terms of Use</a>."
                }],
     "method": "post"
 }
