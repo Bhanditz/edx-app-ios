@@ -105,7 +105,7 @@
 /* Get certificate button text. */
 "CERTIFICATES.GET_CERTIFICATE"="View certificate";
 /* Text to share on FB & Twitter when sharing a course cert */
-"CERTIFICATES.SHARE_TEXT"="I just earned a Certificate on edX! Check it out:";
+"CERTIFICATES.SHARE_TEXT"="I just earned a Certificate on AppsemblerX! Check it out:";
 /* Title bar when viewing an actual certificate */
 "CERTIFICATES.VIEW_CERT_TITLE"="Certificate";
 /* Title of course announcements section */
@@ -457,7 +457,7 @@
 /* Button title when responses are closed for a thread */
 "RESPONSES_CLOSED"="Responses are closed for this post";
 /* Title of registration agreement */
-"REGISTRATION_AGREEMENT_BUTTON_TITLE"="{platform_name} Terms of Service and Honor Code";
+"REGISTRATION_AGREEMENT_BUTTON_TITLE"="{platform_name} Terms of Use";
 /* Create account agreement. Followed by list of agreement names like "End User License Agreement" */
 "REGISTRATION_AGREEMENT_MESSAGE"="By creating an {platform_name} account, you agree to the ";
 /* Button text allowing user create an account */

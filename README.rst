@@ -74,8 +74,12 @@ have the following ``edx.properties``:
     }
 
 
-The full set of known keys can be found in the ``OEXConfig.m`` or see
+The full set of known keys can be found in the ``OEXConfig.m``.  These list the high-level keys; sub-keys can be found in the .m files for each config file. These files are found in the Environment group in XCode. (See COURSE_ENROLLMENT and SEGMENT_IO examples below.) 
+
+
+See also:
 `additional documentation <https://openedx.atlassian.net/wiki/display/MA/App+Configuration+Flags>`_.
+
 
 Additional Customization
 ------------------------
@@ -89,6 +93,7 @@ To replace the edX branding you will need to replace the ``appicon`` files.
 These come in a number of resolutions. See Apple's documentation for more
 information on different app icon sizes. Additionally, you will need to replace
 the ``splash`` images used in the login screen.
+
 
 `This spreadsheet <https://docs.google.com/spreadsheets/d/1-q2QLbeXR6kH9qp03t_-4iBuZXtHrtBfs7Qnf-3y1O0/edit#gid=0>`_ has the list of images that need to be replaced.
     
@@ -104,7 +109,14 @@ If you need to make more in depth UI changes, most of the user interface is
 specified in the ``Main.storyboard`` file, editable from Interface Builder
 within Xcode.
 
-Enrolling for courses *should* work out of the box.  See `this website <https://openedx.atlassian.net/wiki/display/MA/App+Configuration+Flags>`_ for info.  At the moment, it's not working.
+Enrolling for courses *should* work out of the box.  See `this website <https://openedx.atlassian.net/wiki/display/MA/App+Configuration+Flags>`_ for info. 
 
 As mentioned, the app relies on the presence of several third party services:
-Facebook, NewRelic, Google+, SegmentIO, and Crashlytics. You must remove references to each of these services you choose not to use. You can comment out the lines that mention these services. We're working to make those dependencies optional.
+Facebook, NewRelic, Google+, SegmentIO, and Crashlytics. To integrate your own SegmentIO key, enable segment io in edx-platform and set these in your iOS yaml file:
+::
+    SEGMENT_IO:
+        ENABLED: 'YES'
+        SEGMENT_IO_WRITE_KEY: '<yourSegmentIOKey>'
+
+You can remove references to each of these services you choose not to use by commenting out the lines that mention these services. We're working to make those dependencies optional.
+
