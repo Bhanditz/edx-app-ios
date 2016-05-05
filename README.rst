@@ -94,7 +94,6 @@ These come in a number of resolutions. See Apple's documentation for more
 information on different app icon sizes. Additionally, you will need to replace
 the ``splash`` images used in the login screen.
 
-
 `This spreadsheet <https://docs.google.com/spreadsheets/d/1-q2QLbeXR6kH9qp03t_-4iBuZXtHrtBfs7Qnf-3y1O0/edit#gid=0>`_ has the list of images that need to be replaced.
     
 Here is the list of changes to text for rebranding:
