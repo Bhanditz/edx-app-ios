@@ -94,14 +94,7 @@ These come in a number of resolutions. See Apple's documentation for more
 information on different app icon sizes. Additionally, you will need to replace
 the ``splash`` images used in the login screen.
 
-Here is a list of the graphic assets in this branch to replace if customizing the app (found in /edXVideoLocker):
- - splash_start_lg.png
- - splash(640x960).png
- - splash9640x1136.png (<--mislabeled, but this is the filename)
- - Splash_map.png
- - bg_map.png
- - map.png, map@2x.png
- - logo.png, logo@2x.png, logo@3x.png
+`This spreadsheet <https://docs.google.com/spreadsheets/d/1-q2QLbeXR6kH9qp03t_-4iBuZXtHrtBfs7Qnf-3y1O0/edit#gid=0>`_ has the list of images that need to be replaced.
     
 Here is the list of changes to text for rebranding:
  - Replace Bundle Identifier in the project's Target (or found in plist) 
