@@ -25,6 +25,8 @@ newer Java SDK.*
 
 Configuration
 =============
+NB: Follow `these instructions <http://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/mobile.html>`_ to set up edx-platform for mobile access.
+
 The edX mobile iOS app is designed to connect to an Open edX instance. You must
 configure the app with the correct server address and supply appropriate OAuth
 credentials. We use a configuration file mechanism similar to that of the Open
@@ -99,6 +101,7 @@ Here is a list of the graphic assets in this branch to replace if customizing th
     
 Here is the list of changes to text for rebranding:
  - Replace Bundle Identifier in the project's Target (or found in plist) 
+ - Change the CERTIFICATES.SHARE_TEXT to include your company name (this cannot accept the platform_name variable)
  - Optionally change REGISTRATION_AGREEMENT_BUTTON_TITLE to "{platform_name} Terms of Use"
  - in registration.json, change the url in this line: "required": "You must agree to the <a href=..." and two lines below it change the "url", and a few lines below that the "label"
  - Copy the terms and services html page from customer site and paste over Terms-and-Services.htm file
