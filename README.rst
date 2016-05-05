@@ -29,6 +29,8 @@ newer Java SDK.*
 
 Configuration
 =============
+NB: Follow `these instructions <http://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/mobile.html>`_ to set up edx-platform for mobile access.
+
 The edX mobile iOS app is designed to connect to an Open edX instance. You must
 configure the app with the correct server address and supply appropriate OAuth
 credentials. We use a configuration file mechanism similar to that of the Open
@@ -88,6 +90,23 @@ These come in a number of resolutions. See Apple's documentation for more
 information on different app icon sizes. Additionally, you will need to replace
 the ``splash`` images used in the login screen.
 
+Here is a list of the graphic assets in this branch to replace if customizing the app (found in /edXVideoLocker):
+ - splash_start_lg.png
+ - splash(640x960).png
+ - splash9640x1136.png (<--mislabeled, but this is the filename)
+ - Splash_map.png
+ - bg_map.png
+ - map.png, map@2x.png
+ - logo.png, logo@2x.png, logo@3x.png
+    
+Here is the list of changes to text for rebranding:
+ - Replace Bundle Identifier in the project's Target (or found in plist) 
+ - Change the CERTIFICATES.SHARE_TEXT to include your company name (this cannot accept the platform_name variable)
+ - Optionally change REGISTRATION_AGREEMENT_BUTTON_TITLE to "{platform_name} Terms of Use"
+ - in registration.json, change the url in this line: "required": "You must agree to the <a href=..." and two lines below it change the "url", and a few lines below that the "label"
+ - Copy the terms and services html page from customer site and paste over Terms-and-Services.htm file
+ - Find "/etc/" and replace with website root (eg. "http://www.cloudera.com/")
+    
 If you need to make more in depth UI changes, most of the user interface is
 specified in the ``Main.storyboard`` file, editable from Interface Builder
 within Xcode.
