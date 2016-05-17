@@ -101,8 +101,6 @@ class EnrolledCoursesViewController : UIViewController, CoursesTableViewControll
             ConstantInsetsSource(insets: UIEdgeInsets(top: 0, left: 0, bottom: StandardVerticalMargin, right: 0), affectsScrollIndicators: false)
         )
         
-        self.enrollmentFeed.refresh()
-        
         setupListener()
         setupFooter()
         setupObservers()
@@ -111,6 +109,8 @@ class EnrolledCoursesViewController : UIViewController, CoursesTableViewControll
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         environment.analytics.trackScreenWithName(OEXAnalyticsScreenMyCourses)
+        
+        self.enrollmentFeed.refresh()
     }
 
     private func setupListener() {
