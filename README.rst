@@ -108,12 +108,7 @@ If you need to make more in depth UI changes, most of the user interface is
 specified in the ``Main.storyboard`` file, editable from Interface Builder
 within Xcode.
 
-It is currently not possible to enroll for courses via the iOS app.  Until this is available, disable the course enrollment and tell the app where to send users via Safari in your yaml file:
-
-::
-    COURSE_ENROLLMENT:
-        ENABLED: 'NO'
-        EXTERNAL_COURSE_SEARCH_URL: 'http://<your.edx-platform.app.url>/dashboard'
+Enrolling for courses *should* work out of the box.  See `this website <https://openedx.atlassian.net/wiki/display/MA/App+Configuration+Flags>`_ for info.  At the moment, it's not working.
 
 As mentioned, the app relies on the presence of several third party services:
 Facebook, NewRelic, Google+, SegmentIO, and Crashlytics. To integrate your own SegmentIO key, enable segment io in edx-platform and set these in your iOS yaml file:
