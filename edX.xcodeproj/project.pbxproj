@@ -135,11 +135,11 @@
 		46CECC3C1B041D270073C63A /* CourseDashboardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CECC3B1B041D270073C63A /* CourseDashboardCell.swift */; };
 		46CECC401B041FCA0073C63A /* DiscussionTopicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CECC3F1B041FCA0073C63A /* DiscussionTopicsViewController.swift */; };
 		46CECC441B055B0F0073C63A /* CourseDashboardViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CECC431B055B0F0073C63A /* CourseDashboardViewControllerTests.swift */; };
-		492FB0151CCFEF6500B86D0D /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 492FB0131CCFEF6500B86D0D /* logo@2x.png */; settings = {ASSET_TAGS = (); }; };
-		492FB0161CCFEF6500B86D0D /* logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 492FB0141CCFEF6500B86D0D /* logo@3x.png */; settings = {ASSET_TAGS = (); }; };
-		492FB0181CCFF10F00B86D0D /* splash-start-lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 492FB0171CCFF10F00B86D0D /* splash-start-lg.png */; settings = {ASSET_TAGS = (); }; };
-		492FB01A1CCFF36C00B86D0D /* bg_map.png in Resources */ = {isa = PBXBuildFile; fileRef = 492FB0191CCFF36C00B86D0D /* bg_map.png */; settings = {ASSET_TAGS = (); }; };
-		492FB01C1CCFF52100B86D0D /* map@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 492FB01B1CCFF52100B86D0D /* map@2x.png */; settings = {ASSET_TAGS = (); }; };
+		492FB0151CCFEF6500B86D0D /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 492FB0131CCFEF6500B86D0D /* logo@2x.png */; };
+		492FB0161CCFEF6500B86D0D /* logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 492FB0141CCFEF6500B86D0D /* logo@3x.png */; };
+		492FB0181CCFF10F00B86D0D /* splash-start-lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 492FB0171CCFF10F00B86D0D /* splash-start-lg.png */; };
+		492FB01A1CCFF36C00B86D0D /* bg_map.png in Resources */ = {isa = PBXBuildFile; fileRef = 492FB0191CCFF36C00B86D0D /* bg_map.png */; };
+		492FB01C1CCFF52100B86D0D /* map@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 492FB01B1CCFF52100B86D0D /* map@2x.png */; };
 		5D43B1861B0C1F9200448B52 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D43B1801B0C1F9200448B52 /* PostTableViewCell.swift */; };
 		5D43B1871B0C1F9200448B52 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D43B1811B0C1F9200448B52 /* PostsViewController.swift */; };
 		5D43B18A1B0C1F9200448B52 /* MenuOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D43B1841B0C1F9200448B52 /* MenuOptionsViewController.swift */; };
@@ -4405,7 +4405,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = org.edx.mobile;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appsembler.academy.mobile;
 				PRODUCT_NAME = edX;
 				SWIFT_OBJC_BRIDGING_HEADER = "Source/edX-Bridging-Header.h";
 				WRAPPER_EXTENSION = app;
@@ -4781,7 +4781,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "-D DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = org.edx.mobile;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appsembler.academy.mobile;
 				PRODUCT_NAME = edX;
 				SWIFT_OBJC_BRIDGING_HEADER = "Source/edX-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -4812,7 +4812,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = org.edx.mobile;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appsembler.academy.mobile;
 				PRODUCT_NAME = edX;
 				PROVISIONING_PROFILE = "${RELEASE_PROFILE}";
 				SWIFT_OBJC_BRIDGING_HEADER = "Source/edX-Bridging-Header.h";
