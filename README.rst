@@ -9,6 +9,9 @@ otherwise noted. Please see ``LICENSE.txt`` for details.
 
 Building
 ========
+0. It is very important that you match the iOS version with the edx-platform version.  For v2, use dogwood.3 for edx-platform and named-release/dogwood.rc2 for edx-app-ios.  If you get a lot of compiler bugs when running the iOS app, it may be that your version of Xcode is too new to run this branch of the iOS app (Xcode 7.3 is too new).  If this happens, cherry pick the fix:
+``git cherry-pick a4f08e000b178e0ac5e96db06822d6997a578c37``  
+
 1. Check out the source code: ::
     
     git clone https://github.com/edx/edx-app-ios
@@ -105,6 +108,8 @@ Here is the list of changes to text for rebranding:
 If you need to make more in depth UI changes, most of the user interface is
 specified in the ``Main.storyboard`` file, editable from Interface Builder
 within Xcode.
+
+Enrolling for courses should work out of the box.  See `this website <https://openedx.atlassian.net/wiki/display/MA/App+Configuration+Flags>`_ for info. 
 
 As mentioned, the app relies on the presence of several third party services:
 Facebook, NewRelic, Google+, SegmentIO, and Crashlytics. You must remove references to each of these services you choose not to use. You can comment out the lines that mention these services. We're working to make those dependencies optional.
