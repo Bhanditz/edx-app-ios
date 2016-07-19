@@ -13,6 +13,8 @@ otherwise noted. Please see ``LICENSE.txt`` for details.
 
 Building
 ========
+0. It is very important that you match the iOS version with the edx-platform version. For Eucalyptus, use release/2.5.0 for edx-app-ios which works with edx-platform release-2016-07-13.2 and many subsequent releases.
+
 1. Check out the source code: ::
     
     git clone https://github.com/edx/edx-app-ios
