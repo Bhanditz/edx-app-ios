@@ -13,7 +13,7 @@ otherwise noted. Please see ``LICENSE.txt`` for details.
 
 Building
 ========
-0. It is very important that you match the iOS version with the edx-platform version. Current version has release/2.5.0 for edx-app-ios which works with edx-platform release-2016-07-13.2 and many subsequent releases.  We should probably switch to named-release/eucalyptus.rc1 for ios and the named release for Eucalyptus when it is available.
+0. It is very important that you match the iOS version with the edx-platform version. Current version has release/2.5.0 for edx-app-ios which works with edx-platform release-2016-07-13.2.  We should probably switch to named-release/eucalyptus.rc1 for ios and the named release for Eucalyptus when it is available.
 
 1. Check out the source code: ::
     
