@@ -190,28 +190,10 @@
                                             <constraint firstAttribute="height" constant="2" id="OmA-hw-yhx"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="106" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By signing into the app, you agree to the" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="191" translatesAutoresizingMaskIntoConstraints="NO" id="ZfV-aD-lBt" customClass="OEXCustomLabel">
-                                        <rect key="frame" x="201" y="411" width="198" height="13"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="13" id="TLP-cU-G6l"/>
-                                            <constraint firstAttribute="width" constant="198" id="cb4-zD-OcS"/>
-                                            <constraint firstAttribute="height" constant="13" id="fm4-3v-9LL"/>
-                                            <constraint firstAttribute="width" constant="198" id="nn0-pE-53N"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="10"/>
-                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="default">
-                                            <mask key="constraints">
-                                                <exclude reference="cb4-zD-OcS"/>
-                                                <exclude reference="fm4-3v-9LL"/>
-                                            </mask>
-                                        </variation>
-                                    </label>
                                     <button opaque="NO" tag="106" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cYz-SW-wBv">
-                                        <rect key="frame" x="215" y="420" width="171" height="21"/>
+                                        <rect key="frame" x="215" y="420" width="171" height="24"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="21" id="FFH-LG-Rhl"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="FFH-LG-Rhl"/>
                                             <constraint firstAttribute="width" constant="191" id="jbK-Ay-hDf"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="10"/>
@@ -226,7 +208,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ahW-UE-xWc">
-                                        <rect key="frame" x="282" y="449" width="36" height="12"/>
+                                        <rect key="frame" x="282" y="452" width="36" height="12"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -237,6 +219,25 @@
                                             <constraint firstAttribute="height" constant="33" placeholder="YES" id="NlG-Ps-z8A"/>
                                         </constraints>
                                     </view>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="106" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By signing into the app, you agree to the" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" preferredMaxLayoutWidth="191" translatesAutoresizingMaskIntoConstraints="NO" id="ZfV-aD-lBt" customClass="OEXCustomLabel">
+                                        <rect key="frame" x="210" y="411" width="181.5" height="13"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="13" id="TLP-cU-G6l"/>
+                                            <constraint firstAttribute="width" constant="198" id="cb4-zD-OcS"/>
+                                            <constraint firstAttribute="height" constant="13" id="fm4-3v-9LL"/>
+                                            <constraint firstAttribute="width" constant="198" id="nn0-pE-53N"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="10"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="cb4-zD-OcS"/>
+                                                <exclude reference="fm4-3v-9LL"/>
+                                                <exclude reference="nn0-pE-53N"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="dcW-Go-srk" firstAttribute="top" secondItem="EXv-n9-pKW" secondAttribute="bottom" constant="8" id="06n-uK-Qm2"/>
@@ -250,15 +251,19 @@
                                     <constraint firstItem="cYz-SW-wBv" firstAttribute="top" secondItem="BU5-Og-2jn" secondAttribute="bottom" constant="12" id="9eL-mk-oUC"/>
                                     <constraint firstItem="hfa-gq-20d" firstAttribute="leading" secondItem="XeO-S4-8zQ" secondAttribute="leading" constant="40" id="A46-z9-ghc"/>
                                     <constraint firstItem="huu-Bj-C7B" firstAttribute="leading" secondItem="XeO-S4-8zQ" secondAttribute="leading" constant="40" id="BKd-v0-daG"/>
+                                    <constraint firstItem="ZfV-aD-lBt" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="XeO-S4-8zQ" secondAttribute="leading" constant="40" id="Bny-2T-0XO"/>
                                     <constraint firstItem="huu-Bj-C7B" firstAttribute="top" secondItem="hfa-gq-20d" secondAttribute="bottom" constant="20" id="CRV-47-xcF"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="cYz-SW-wBv" secondAttribute="trailing" constant="40" id="DWt-Ra-Dto"/>
                                     <constraint firstItem="hfa-gq-20d" firstAttribute="top" secondItem="XeO-S4-8zQ" secondAttribute="top" id="DY6-ao-1rI"/>
                                     <constraint firstItem="ahW-UE-xWc" firstAttribute="top" secondItem="cYz-SW-wBv" secondAttribute="bottom" constant="8" id="DeT-Ul-YDQ"/>
                                     <constraint firstItem="hfa-gq-20d" firstAttribute="top" secondItem="XeO-S4-8zQ" secondAttribute="top" id="G34-nE-7Td"/>
                                     <constraint firstItem="9O4-tw-OUv" firstAttribute="leading" secondItem="2of-Hn-kff" secondAttribute="trailing" constant="-3" id="Gyr-Qu-EyO"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ZfV-aD-lBt" secondAttribute="trailing" constant="40" id="H3A-eI-tvx"/>
                                     <constraint firstAttribute="trailing" secondItem="hfa-gq-20d" secondAttribute="trailing" constant="40" id="Hfq-tf-bzd"/>
                                     <constraint firstAttribute="trailing" secondItem="5Ki-dQ-Zuc" secondAttribute="trailing" constant="54" id="Jpr-eN-Jam"/>
                                     <constraint firstAttribute="trailing" secondItem="dcW-Go-srk" secondAttribute="trailing" constant="46" id="Kqj-N0-V22"/>
                                     <constraint firstAttribute="trailing" secondItem="hfa-gq-20d" secondAttribute="trailing" constant="35" id="LXJ-sW-Z9Z"/>
+                                    <constraint firstItem="cYz-SW-wBv" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="XeO-S4-8zQ" secondAttribute="leading" constant="40" id="LzI-YY-eA8"/>
                                     <constraint firstItem="9O4-tw-OUv" firstAttribute="top" secondItem="gKO-wT-mn0" secondAttribute="bottom" constant="9" id="MI6-Y1-sfz"/>
                                     <constraint firstAttribute="centerX" secondItem="TTs-EL-Jso" secondAttribute="centerX" constant="-4.5" id="Ogo-10-kPE"/>
                                     <constraint firstItem="hfa-gq-20d" firstAttribute="top" secondItem="XeO-S4-8zQ" secondAttribute="top" constant="10" id="P9C-uk-42e"/>
