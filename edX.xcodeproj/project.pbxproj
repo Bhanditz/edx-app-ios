@@ -566,6 +566,7 @@
 		BE54F19C195F080E005D069F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = BE54F19B195F080E005D069F /* Reachability.m */; };
 		BE8163F61954244E00F9A2C5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE8163F51954244E00F9A2C5 /* MessageUI.framework */; };
 		BE90F7421DC427E9005A805C /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE90F7411DC427E9005A805C /* Media.xcassets */; };
+		BE90F75C1DC76C87005A805C /* placeholderCourseCardImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BE90F75B1DC76C87005A805C /* placeholderCourseCardImage.png */; };
 		BECB7B0F1924C0C3009C77F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BECB7B0E1924C0C3009C77F1 /* Foundation.framework */; };
 		BECB7B111924C0C3009C77F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BECB7B101924C0C3009C77F1 /* CoreGraphics.framework */; };
 		BECB7B131924C0C3009C77F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BECB7B121924C0C3009C77F1 /* UIKit.framework */; };
@@ -1378,6 +1379,7 @@
 		BE54F19B195F080E005D069F /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		BE8163F51954244E00F9A2C5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		BE90F7411DC427E9005A805C /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		BE90F75B1DC76C87005A805C /* placeholderCourseCardImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = placeholderCourseCardImage.png; path = Source/Resources/Images/Media.xcassets/Images/placeholderCourseCardImage.imageset/placeholderCourseCardImage.png; sourceTree = SOURCE_ROOT; };
 		BECB7B0B1924C0C3009C77F1 /* edX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = edX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BECB7B0E1924C0C3009C77F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BECB7B101924C0C3009C77F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -2361,6 +2363,7 @@
 		77E648461C91024C00B6740D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BE90F75B1DC76C87005A805C /* placeholderCourseCardImage.png */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -3351,6 +3354,7 @@
 				5D836DC91B2FA12E00411CAB /* DiscussionNewCommentViewController.xib in Resources */,
 				69ECC6051D50D1170030CF87 /* OpenSans-Regular.ttf in Resources */,
 				1A03DEA31BBC72BA006783FB /* countries.json in Resources */,
+				BE90F75C1DC76C87005A805C /* placeholderCourseCardImage.png in Resources */,
 				69ECC6071D50D1170030CF87 /* OpenSans-SemiboldItalic.ttf in Resources */,
 				BEEEBF80196AAACF00EF2C35 /* Localizable.strings in Resources */,
 				199B9B7B1935EA8000081A09 /* OEXFlowErrorViewController.xib in Resources */,
