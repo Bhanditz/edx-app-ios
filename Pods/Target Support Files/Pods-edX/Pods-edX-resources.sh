@@ -76,19 +76,25 @@ EOM
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "DateTools/DateTools/DateTools.bundle"
   install_resource "GoogleSignIn/Resources/GoogleSignIn.bundle"
+  install_resource "$PODS_CONFIGURATION_BUILD_DIR/OEXRemoteConfig/AEXDeployment.bundle"
   install_resource "$PODS_CONFIGURATION_BUILD_DIR/OEXRemoteConfig/OEXRemoteConfig.bundle"
+  install_resource "$PODS_CONFIGURATION_BUILD_DIR/OEXRemoteConfig/OEXRemoteTheme.bundle"
   install_resource "Parse/Parse/Resources/en.lproj"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "DateTools/DateTools/DateTools.bundle"
   install_resource "GoogleSignIn/Resources/GoogleSignIn.bundle"
+  install_resource "$PODS_CONFIGURATION_BUILD_DIR/OEXRemoteConfig/AEXDeployment.bundle"
   install_resource "$PODS_CONFIGURATION_BUILD_DIR/OEXRemoteConfig/OEXRemoteConfig.bundle"
+  install_resource "$PODS_CONFIGURATION_BUILD_DIR/OEXRemoteConfig/OEXRemoteTheme.bundle"
   install_resource "Parse/Parse/Resources/en.lproj"
 fi
 if [[ "$CONFIGURATION" == "Profile" ]]; then
   install_resource "DateTools/DateTools/DateTools.bundle"
   install_resource "GoogleSignIn/Resources/GoogleSignIn.bundle"
+  install_resource "$PODS_CONFIGURATION_BUILD_DIR/OEXRemoteConfig/AEXDeployment.bundle"
   install_resource "$PODS_CONFIGURATION_BUILD_DIR/OEXRemoteConfig/OEXRemoteConfig.bundle"
+  install_resource "$PODS_CONFIGURATION_BUILD_DIR/OEXRemoteConfig/OEXRemoteTheme.bundle"
   install_resource "Parse/Parse/Resources/en.lproj"
 fi
 

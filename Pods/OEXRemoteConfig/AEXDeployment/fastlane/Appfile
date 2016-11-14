@@ -1,0 +1,28 @@
+app_identifier ENV['APP_IDENTIFIER_WILD']
+apple_id ENV['APPLE_ID']
+team_id ENV['TEAM_ID']
+
+for_platform :ios do
+
+  for_lane :test do
+  end
+
+  for_lane :appstore do
+    app_identifier ENV['APP_IDENTIFIER_APPSTORE']
+  end
+
+  for_lane :internal_adhoc_stable do
+    app_identifier ENV['APP_IDENTIFIER_STABLE']
+  end
+
+  for_lane :internal_adhoc_wild do
+  end
+
+  for_lane :client_adhoc_stable do
+    app_identifier ENV['APP_IDENTIFIER_STABLE']
+  end
+
+  for_lane :client_adhoc_wild do
+  end
+
+end

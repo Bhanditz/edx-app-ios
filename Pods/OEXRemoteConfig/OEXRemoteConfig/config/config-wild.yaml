@@ -1,0 +1,65 @@
+# Enable user profiles
+# Blocker: needs QA
+# Blocker: needs bugfixes (see trello)
+# DISCUSSIONS_ENABLE_PROFILE_PICTURE_PARAM: true
+# USER_PROFILES_ENABLED: true
+
+# Enable course search & course enrollment
+# Blocker: needs QA
+# Blocker: needs bugfix for 'invite-only' courses
+# COURSE_ENROLLMENT:
+#     TYPE: native
+
+# Enable course sharing via native share dialog
+# Blocker: needs QA that message is correct on twitter, facebook, sms, email
+# Blocker: needs QA that all share buttons open as expected on all platforms
+# Blocker: @clee said he didn't think it was stable (Aug 24, 2016). "The url we link to is suppose to have the course information but on production it does not" 
+# COURSE_SHARING_ENABLED: true
+
+# If a user has a certificate for a course, it should appear on the course dashboard.
+# Blocker: should be stable according to @clee, needs our QA
+# Blocker: ensure that tests exist for this that prevent regression
+# CERTIFICATES_ENABLED: true
+
+# If open badges support is enabled, a user's badges will show up on their user profile
+# Blocker: maybe stable, needs QA, not used on production by open edx according to @clee
+# Blocker: ensure that tests exist for this that prevent regression
+# BADGES_ENABLED: true
+
+# Blocker: unstable
+# PUSH_NOTIFICATIONS: true
+
+# Facebook integration is currently limited to using Facebook as a third party authentication provider. When this feature is configured your users can use their Facebook accounts to log in to the app.
+# Blocker: tbd, unknown stability
+# FACEBOOK:
+#     ENABLED: true
+#     FACEBOOK_APP_ID: ''
+
+# Google integration is currently limited to using Facebook as a third party authentication provider. When this feature is configured your users can use their Google accounts to log in to the app.
+# Blocker: tbd, unknown stability
+# GOOGLE:
+#     ENABLED: true
+#     GOOGLE_PLUS_KEY: ''
+
+# Enable performance monitoring via New Relic
+# Blocker: tbd, unknown stability
+# NEW_RELIC:
+#     ENABLED: true
+#     NEW_RELIC_KEY: ''
+
+# Twitter integration is limited to sharing information about a course via tweet. If this is supplied, this will be used instead of the platform name when sharing a course via twitter.
+# Blocker: tbd, unknown stability
+# TWITTER:
+#     HASHTAG: ''
+
+# Whether the new start screen is enabled that allows users to view courses without singing in/up.
+# Blocker: tbd, unknown stability
+# NEW_LOGISTRATION_ENABLED: true
+
+# Sets the app's shortcut name. If not set, defaults to the platform name.
+# Blocker: tbd, unknown stability
+# APP_SHORTCUT_NAME: ''
+
+# If set, the app will only access courses with the appropriate organization. 
+# Blocker: tbd, unknown stability
+# ORGANIZATION_CODE: ''

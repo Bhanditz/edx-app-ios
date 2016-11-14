@@ -1,0 +1,74 @@
+fastlane_version "1.106.2"
+default_platform :ios
+
+platform :ios do
+  before_all do
+    branding
+    plist
+  end
+
+  desc "Runs all the tests"
+  lane :test do
+    scan
+  end
+
+  desc "Submit a new Stable Adhoc Build to Apple TestFlight"
+  lane :internal_adhoc_stable do
+    share_with_internal_testers
+  end
+
+  desc "Submit a new Wild Adhoc Build to Apple TestFlight"
+  lane :internal_adhoc_wild do
+    share_with_internal_testers
+  end
+
+  desc "Submit a new Stable Adhoc Build to Apple TestFlight"
+  lane :client_adhoc_stable do
+    share_with_external_testers
+  end
+
+  desc "Submit a new Wild Adhoc Build to Apple TestFlight"
+  lane :client_adhoc_wild do
+    share_with_external_testers
+  end
+
+  desc "Deploy a new version to the App Store"
+  lane :appstore do
+    match(type: "appstore")
+    snapshot
+    gym(scheme: "edX")
+    deliver(force: true)
+    frameit
+  end
+
+  private_lane :changelog do
+    changelog = prompt(
+      text: "Changelog: ",
+      multi_line_end_keyword: "END"
+    )
+  end
+
+  private_lane :plist do
+    set_info_plist_value(path: "../../../Source/edX-Info.plist", key: "CFBundleDisplayName", value: ENV['BUNDLE_DISPLAY_NAME'])
+    set_info_plist_value(path: "../../../Source/edX-Info.plist", key: "CFBundleSpokenName", value: ENV['BUNDLE_SPOKEN_NAME'])
+  end
+
+  private_lane :share_with_external_testers do
+    match(type: "appstore")
+    gym(scheme: "edX")
+    pilot(distribute_external: true, changelog: changelog)
+  end
+
+  private_lane :share_with_internal_testers do
+    match(type: "appstore")
+    gym(scheme: "edX")
+    pilot(distribute_external: false, changelog: changelog)
+  end
+
+  after_all do |lane|
+  end
+
+  error do |lane, exception|
+  end
+end
+
