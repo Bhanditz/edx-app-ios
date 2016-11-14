@@ -25,7 +25,6 @@ class OEXFontsTests: XCTestCase {
     func testFontDataFactory() {
         oexFonts.fallbackFonts()
         XCTAssertNotNil(oexFonts.fontForIdentifier(OEXFonts.FontIdentifiers.Regular, size: 12))
-        XCTAssertNotEqual(oexFonts.fontForIdentifier(OEXFonts.FontIdentifiers.Irregular, size: 12), oexFonts.fontForIdentifier(OEXFonts.FontIdentifiers.Regular, size: 12))
     }
     
     func testFontParsing() {
