@@ -568,6 +568,7 @@
 		BE0EE28B192B78DA00F9FF98 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BE0EE28A192B78DA00F9FF98 /* libz.dylib */; };
 		BE45DA8F192623F4003BD39B /* OEXTabBarItemsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE45DA8E192623F4003BD39B /* OEXTabBarItemsCell.m */; };
 		BE54F19C195F080E005D069F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = BE54F19B195F080E005D069F /* Reachability.m */; };
+		BE624EBA1DDC5AE600BEAB2E /* CustomFonts in Resources */ = {isa = PBXBuildFile; fileRef = BE624EB91DDC5AE600BEAB2E /* CustomFonts */; };
 		BE8163F61954244E00F9A2C5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE8163F51954244E00F9A2C5 /* MessageUI.framework */; };
 		BE90F7421DC427E9005A805C /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE90F7411DC427E9005A805C /* Media.xcassets */; };
 		BECB7B0F1924C0C3009C77F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BECB7B0E1924C0C3009C77F1 /* Foundation.framework */; };
@@ -1386,6 +1387,7 @@
 		BE45DA8E192623F4003BD39B /* OEXTabBarItemsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OEXTabBarItemsCell.m; sourceTree = "<group>"; };
 		BE54F19A195F080E005D069F /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		BE54F19B195F080E005D069F /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		BE624EB91DDC5AE600BEAB2E /* CustomFonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CustomFonts; sourceTree = "<group>"; };
 		BE8163F51954244E00F9A2C5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		BE90F7411DC427E9005A805C /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		BECB7B0B1924C0C3009C77F1 /* edX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = edX.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1805,6 +1807,7 @@
 		69ECC5A21D50D1170030CF87 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				BE624EB91DDC5AE600BEAB2E /* CustomFonts */,
 				BD7C6C3F1DCA329A0004D135 /* fonts.json */,
 				69ECC5A31D50D1170030CF87 /* FontAwesome.otf */,
 				69ECC5A41D50D1170030CF87 /* OpenSans-Bold.ttf */,
@@ -3379,6 +3382,7 @@
 				BEFD98161DDA30F5003CCFB7 /* placeholderCourseCardImage.png in Resources */,
 				69ECC6511D50D1170030CF87 /* handouts-announcements.css in Resources */,
 				69ECC6031D50D1170030CF87 /* OpenSans-Light.ttf in Resources */,
+				BE624EBA1DDC5AE600BEAB2E /* CustomFonts in Resources */,
 				5D836DC91B2FA12E00411CAB /* DiscussionNewCommentViewController.xib in Resources */,
 				69ECC6051D50D1170030CF87 /* OpenSans-Regular.ttf in Resources */,
 				1A03DEA31BBC72BA006783FB /* countries.json in Resources */,
