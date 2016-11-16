@@ -581,7 +581,7 @@
 		BECB7B521924C9FB009C77F1 /* OEXVideoPlayerInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = BECB7B501924C9FB009C77F1 /* OEXVideoPlayerInterface.m */; };
 		BECB7B5A1924D760009C77F1 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BECB7B591924D760009C77F1 /* SWRevealViewController.m */; };
 		BECB7B691924EE11009C77F1 /* OEXLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BECB7B681924EE11009C77F1 /* OEXLoginViewController.m */; };
-		BEE93AA41DDCC60900EA4EF3 /* placeholderCourseCardImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE93AA31DDCC60900EA4EF3 /* placeholderCourseCardImage.png */; };
+		BEE93AA61DDCC83200EA4EF3 /* placeholderCourseCardImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE93AA51DDCC83200EA4EF3 /* placeholderCourseCardImage.png */; };
 		BEEEBF80196AAACF00EF2C35 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEEEBF82196AAACF00EF2C35 /* Localizable.strings */; };
 		BEEEBF87196AB7EA00EF2C35 /* OEXStatusMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEEBF85196AB7EA00EF2C35 /* OEXStatusMessageViewController.m */; };
 		BEEEBF88196AB7EA00EF2C35 /* OEXStatusMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEEEBF86196AB7EA00EF2C35 /* OEXStatusMessageViewController.xib */; };
@@ -1407,7 +1407,7 @@
 		BECB7B591924D760009C77F1 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		BECB7B671924EE11009C77F1 /* OEXLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OEXLoginViewController.h; sourceTree = "<group>"; };
 		BECB7B681924EE11009C77F1 /* OEXLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OEXLoginViewController.m; sourceTree = "<group>"; };
-		BEE93AA31DDCC60900EA4EF3 /* placeholderCourseCardImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholderCourseCardImage.png; sourceTree = "<group>"; };
+		BEE93AA51DDCC83200EA4EF3 /* placeholderCourseCardImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = placeholderCourseCardImage.png; path = Source/Resources/Images/placeholderCourseCardImage.png; sourceTree = SOURCE_ROOT; };
 		BEEEBF84196AB7EA00EF2C35 /* OEXStatusMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OEXStatusMessageViewController.h; sourceTree = "<group>"; };
 		BEEEBF85196AB7EA00EF2C35 /* OEXStatusMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OEXStatusMessageViewController.m; sourceTree = "<group>"; };
 		BEEEBF86196AB7EA00EF2C35 /* OEXStatusMessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OEXStatusMessageViewController.xib; sourceTree = "<group>"; };
@@ -2490,7 +2490,7 @@
 				775434961AD8635200635A40 /* OEXUserDetails+OEXTestDataFactory.m */,
 				770A27A51A700E1600DFC6FF /* OEXVideoSummary+OEXTestDataFactory.h */,
 				770A27A61A700E1600DFC6FF /* OEXVideoSummary+OEXTestDataFactory.m */,
-				BEE93AA31DDCC60900EA4EF3 /* placeholderCourseCardImage.png */,
+				BEE93AA51DDCC83200EA4EF3 /* placeholderCourseCardImage.png */,
 			);
 			name = "Data Factories";
 			sourceTree = "<group>";
@@ -3380,7 +3380,7 @@
 				B4B6D64A1A95CF33000F44E8 /* OEXUserLicenseAgreementViewController.xib in Resources */,
 				69ECC6041D50D1170030CF87 /* OpenSans-LightItalic.ttf in Resources */,
 				69ECC6511D50D1170030CF87 /* handouts-announcements.css in Resources */,
-				BEE93AA41DDCC60900EA4EF3 /* placeholderCourseCardImage.png in Resources */,
+				BEE93AA61DDCC83200EA4EF3 /* placeholderCourseCardImage.png in Resources */,
 				69ECC6031D50D1170030CF87 /* OpenSans-Light.ttf in Resources */,
 				BE624EBA1DDC5AE600BEAB2E /* CustomFonts in Resources */,
 				5D836DC91B2FA12E00411CAB /* DiscussionNewCommentViewController.xib in Resources */,
