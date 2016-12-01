@@ -21,7 +21,6 @@
 #import "OEXDateFormatting.h"
 #import "OEXInterface.h"
 #import "OEXHelperVideoDownload.h"
-#import "OEXStatusMessageViewController.h"
 #import "OEXStyles.h"
 #import "OEXUserDetails.h"
 #import "OEXVideoPathEntry.h"
@@ -47,7 +46,7 @@ typedef NS_ENUM (NSUInteger, OEXAlertType) {
     OEXAlertTypePlayBackContentUnAvailable
 };
 
-@interface OEXMyVideosSubSectionViewController () <UITableViewDelegate, OEXStatusMessageControlling>
+@interface OEXMyVideosSubSectionViewController () <UITableViewDelegate>
 {
     NSIndexPath* clickedIndexpath;
 }
@@ -80,16 +79,6 @@ typedef NS_ENUM (NSUInteger, OEXAlertType) {
 @end
 
 @implementation OEXMyVideosSubSectionViewController
-
-- (CGFloat)verticalOffsetForStatusController:(OEXStatusMessageViewController*)controller {
-    return CGRectGetMaxY(self.navigationController.navigationBar.frame);
-}
-
-- (NSArray*)overlayViewsForStatusController:(OEXStatusMessageViewController*)controller {
-    NSMutableArray* result = [[NSMutableArray alloc] init];
-    [result oex_safeAddObjectOrNil:self.selectAllButton];
-    return result;
-}
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
@@ -917,8 +906,7 @@ typedef NS_ENUM (NSUInteger, OEXAlertType) {
 
 - (void)movieTimedOut {
     if(!_videoPlayerInterface.moviePlayerController.isFullscreen) {
-        [[OEXStatusMessageViewController sharedInstance]
-         showMessage:[Strings timeoutCheckInternetConnection] onViewController:self];
+        [self showOverlayMessage:[Strings timeoutCheckInternetConnection]];
         [_videoPlayerInterface.moviePlayerController stop];
     }
     else {
@@ -968,9 +956,6 @@ typedef NS_ENUM (NSUInteger, OEXAlertType) {
                 [self performSelector:@selector(pop) withObject:nil afterDelay:1.0];
             }
             else {
-                NSString* message = [Strings videosDeletedWithCount:deleteCount formatted:nil];
-                [[OEXStatusMessageViewController sharedInstance] showMessage:message onViewController:self];
-
                 // clear all objects form array after deletion.
                 // To obtain correct count on next deletion process.
 
@@ -979,7 +964,6 @@ typedef NS_ENUM (NSUInteger, OEXAlertType) {
                 [self.table_SubSectionVideos reloadData];
             }
 
-//            [self disableDeleteButton];
             [self cancelTableClicked:nil];
         }
     }
