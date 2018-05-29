@@ -97,6 +97,9 @@ public class CourseDashboardViewController: UIViewController, UITableViewDataSou
         self.view.addSubview(containerView)
         self.containerView.addSubview(stackView)
         tableView.isScrollEnabled = false
+        self.tableView.estimatedRowHeight = 200;
+        self.tableView.estimatedSectionHeaderHeight = 0;
+        self.tableView.estimatedSectionFooterHeight = 0;
         
         // Set up tableView
         tableView.dataSource = self
@@ -167,7 +170,7 @@ public class CourseDashboardViewController: UIViewController, UITableViewDataSou
         CourseCardViewModel.onDashboard(course: enrollment.course).apply(card: courseCard, networkManager: self.environment.networkManager)
         verifyAccessForCourse(course: enrollment.course)
         prepareTableViewData(enrollment: enrollment)
-        self.tableView.reloadData()
+        self.tableView.setNeedsLayout()
         shareButton.isHidden = enrollment.course.course_about == nil || !environment.config.courseSharingEnabled
         shareButton.oex_removeAllActions()
         shareButton.oex_addAction({[weak self] _ in
