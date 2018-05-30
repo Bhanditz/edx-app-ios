@@ -1,3 +1,34 @@
-API_HOST_URL: 'http://localhost:8000'
-ENVIRONMENT_DISPLAY_NAME: 'Localhost'
-FEEDBACK_EMAIL_ADDRESS: 'support@example.com'
+API_HOST_URL: 'https://ginkgo-sandbox.appsembler.com/'
+ENVIRONMENT_DISPLAY_NAME: 'Testing'
+FEEDBACK_EMAIL_ADDRESS: 'you@yourcompany.com'
+OAUTH_CLIENT_ID: 'eb87bde4d0ba461951a5'
+PHONETIC_PLATFORM_NAME: 'Demo'
+PLATFORM_DESTINATION_NAME: 'https://ginkgo-sandbox.appsembler.com/'
+PLATFORM_NAME: 'Demo'
+
+ANNOUNCEMENTS_ENABLED: true
+BADGES_ENABLED: true
+DISCUSSIONS_ENABLED: true
+CERTIFICATES_ENABLED: true
+DISCUSSIONS_ENABLE_PROFILE_PICTURE_PARAM: true
+REGISTRATION_ENABLED: true
+USER_PROFILES_ENABLED: true
+VIDEO_TRANSCRIPT_ENABLED: true
+
+COURSE_DATES_ENABLED: false
+TAB_LAYOUTS_ENABLED: false
+USING_VIDEO_PIPELINE: false
+WHATS_NEW_ENABLED: false
+
+FABRIC:
+    ENABLED: false
+    APP_KEY: '' # This is required by iOS only
+    BUILD_SECRET: ''
+    FABRIC_KEY: '' # This is required by Android only
+    KITS: # This is required by Android only
+        CRASHLTYICS: false # This is required by Android only
+CRASHLYTICS: false
+
+SEGMENT_IO:
+    ENABLED: false
+    SEGMENT_IO_WRITE_KEY: ''
